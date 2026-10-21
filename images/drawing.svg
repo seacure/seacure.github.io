@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1080"
+   height="918"
+   viewBox="0 0 285.74999 242.8875"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   sodipodi:docname="drawing.svg"
+   inkscape:export-filename="bathtub_preview.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.2000482"
+     inkscape:cx="737.3223"
+     inkscape:cy="42.48976"
+     inkscape:window-width="1232"
+     inkscape:window-height="722"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="579.86025"
+       y="364.91205"
+       width="14.996386"
+       height="354.91446"
+       id="rect3" />
+    <rect
+       x="929.77592"
+       y="294.92892"
+       width="749.81929"
+       height="204.95061"
+       id="rect2" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:235.115;display:inline;fill:#000000;stroke-width:0.264583"
+       x="145.51755"
+       y="92.581856"
+       id="text1"
+       transform="translate(-117.71121,-10.850149)"><tspan
+         x="145.51755"
+         y="92.581856"
+         id="tspan5"><tspan
+           style="font-weight:800;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;text-anchor:middle;fill:#335e96"
+           id="tspan4">click for further explanation</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text2"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:85.3333px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#335e96;fill-opacity:1" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text3"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:85.3333px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);display:inline;fill:#335e96;fill-opacity:1" />
+  </g>
+</svg>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explaining SeaCURE</title>
+    <style>
+        /* =========================================
+           CONFIGURATION AREA - CHANGE COLORS HERE
+        ========================================= */
+        :root {
+            /* Main Titles (H1) */
+            --title-color: #5DAF8B; /* Deep blue/grey */
+            
+            /* Subtitles (H2) */
+            --subtitle-color: #335E96; /* Slightly lighter blue */
+            
+            /* Standard Body Text */
+            --body-text-color: #333333; /* Dark grey (easier to read than pure black) */
+            
+            /* The clickable interactive links */
+            --interactive-color: #0000FF; /* Currently Orange - Change me! */
+            
+            /* The hover background for interactive links */
+            --interactive-hover-bg: #fbeee6; /* Light orange fade */
+            
+            /* Page Background */
+            --main-bg-color: #ffffff;
+        }
+
+        /* --- Basic Page Styling --- */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            /* Using the variables defined above */
+            color: var(--body-text-color);
+            background-color: var(--main-bg-color);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 { color: var(--title-color); }
+        h2 { color: var(--subtitle-color); }
+        
+        /* --- Header & Logo Styling --- */
+        .project-header {
+            text-align: center; /* Centers everything in header */
+            margin-bottom: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .logo-wrapper {
+            /* Flex allows easy side-by-side logos if needed */
+            display: flex; 
+            justify-content: center;
+            gap: 20px; /* Space between logos */
+            margin-bottom: 15px;
+        }
+        .project-logo {
+            max-height: 80px; /* Ensures logos don't dominate the page */
+            width: auto;
+        }
+
+        /* --- Standard Images in text --- */
+        img.standard-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="project-header">
+        <h1>Ocean Alkalinity Enhancement</h1>
+    </header>
+
+    <main>
+        <section>
+            <p>
+            Instead of removing carbon from seawater, we can help the ocean absorb more carbon from the atmosphere by making the water slightly more alkaline. 
+            This process is commonly called called Ocean Alkalinity Enhancement. 
+            </p>
+            <p>
+            Previously, we tested a method where we added acid, removed carbon, and then added a base (opposite of acid) to neutralise the acid.
+            </p>
+            <p>
+            Ocean Alkalinity Enhancement is simpler - we skip the acid addition and carbon removal steps and just add the base. 
+            The result is that the water becomes less acidic, but its initial carbon concentration stays the same. 
+            Once this water is released back into the ocean, it naturally absorbs carbon dioxide from the air, 
+            gradually returning to normal seawater acidity levels. 
+            </p>
+            <p>
+            This can be done using the same simple chemical approaches we have used in the SeaCURE project so far.
+            However, cost effective approaches to doing this at large scales are likely to involve grinding up rocks and dissolving them into the water to neutralise the acidity of seawater (for example, using ground up chalk).
+            Forming and dissolving chalks in the ocean is actually how the Earth keeps atmospheric CO<sub>2</sub> levels from varying too much, but in nature, this happens on the timescale of thousands of years. 
+            Adding ground up rocks raises additional questions such as how well the material dissolves, potential impacts of making the water more cloudy, and what else is being introduced to the water from those rocks.
+            </p>              
+            <p>
+            It we were assessing Ocean Alkalinity Enhancement at the SeaCURE site, we would start by using a pure base, sodium hydroxide. 
+            Seawater already contains a large amount of sodium (from dissolved salt), and hydroxide is a natural part of water,
+            so we would not need to understand the impact of any impurities, just the change in the water's pH.
+            </p>
+
+        </section>
+     </main>
+
+</body>
+</html>

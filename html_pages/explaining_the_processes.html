@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explaining SeaCURE</title>
+    <style>
+        /* =========================================
+           CONFIGURATION AREA - CHANGE COLORS HERE
+        ========================================= */
+        :root {
+            /* Main Titles (H1) */
+            --title-color: #5DAF8B; /* Deep blue/grey */
+            
+            /* Subtitles (H2) */
+            --subtitle-color: #335E96; /* Slightly lighter blue */
+            
+            /* Standard Body Text */
+            --body-text-color: #333333; /* Dark grey (easier to read than pure black) */
+            
+            /* The clickable interactive links */
+            --interactive-color: #0000FF; /* Currently Orange - Change me! */
+            
+            /* The hover background for interactive links */
+            --interactive-hover-bg: #fbeee6; /* Light orange fade */
+            
+            /* Page Background */
+            --main-bg-color: #ffffff;
+        }
+
+        /* --- Basic Page Styling --- */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            /* Using the variables defined above */
+            color: var(--body-text-color);
+            background-color: var(--main-bg-color);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 { color: var(--title-color); }
+        h2 { color: var(--subtitle-color); }
+        
+        /* --- Header & Logo Styling --- */
+        .project-header {
+            text-align: center; /* Centers everything in header */
+            margin-bottom: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .logo-wrapper {
+            /* Flex allows easy side-by-side logos if needed */
+            display: flex; 
+            justify-content: center;
+            gap: 20px; /* Space between logos */
+            margin-bottom: 15px;
+        }
+        .project-logo {
+            max-height: 80px; /* Ensures logos don't dominate the page */
+            width: auto;
+        }
+
+        /* --- Standard Images in text --- */
+        img.standard-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        img.responsive {
+            max-width: 100%;
+            height: auto;         
+            display: block;       
+            margin-inline: auto;  
+        }
+
+        .simple-container {
+            width: 100%;
+            /* max-width: 1080px;
+            height: 918px; Set exactly how much you want to see */
+            overflow: hidden;
+            border-radius: 8px;
+            margin: 20px auto;
+        }
+
+        .fill-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* This automatically crops the edges to fill the box */
+            object-position: center 20%; /* This lets you "slide" the crop up or down */
+        }
+
+        .crop-img {
+            width: 100%;
+            height: 100%;
+            /* 'cover' scales the image to fill the box without stretching */
+            object-fit: cover; 
+            /* 'center 20%' means: center horizontally, and show the top 20% of the image */
+            /* This is how you "crop" out that top 15% you mentioned earlier! */
+            object-position: center 25%; 
+        }
+    </style>
+</head>
+<body>
+
+    <header class="project-header">
+        <h1>Explainer: The process in more detail</h1>
+    </header>
+
+    <main>
+            <section>
+            <h2>How the ocean can help remove excess CO<sub>2</sub> from the atmosphere</b></h2>
+            <p>
+                Play the animations below for a basic overview.
+            </p>
+                <h3>Approach 1: 'Squeezing out the sponge', Direct Ocean Carbon Capture</h3>
+                <div class="simple-container">
+                    <video controls playsinline class="crop-img">
+                        <source src="OceanDiagramDOCC.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                <h3>Approach 2: 'Making the sponge more absorbent', Ocean Alkalinity Enhancement</h3>
+                </div>
+                    <div class="simple-container">
+                    <video controls playsinline class="crop-img">
+                        <source src="OceanDiagram.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </section>
+            <section>
+            <h2>The chemistry behind this</h2>
+            <h3>Approach 1: Squeezing out the sponge</h3>
+            <p>
+                To get carbon out of seawater we need to make it more acidic (to about the acidity of apple juice).
+                This causes the carbon stored securely in seawater (as carbonate and bicarbonate) to turn into CO<sub>2</sub> that can 'bubble out' of the water and be captured.           
+            </p>
+            <p>
+                Seawater is primarily water (H<sub>2</sub>O) and salt (sodium chloride - NaCl).
+                The change in the acidity of the seawater can be generated by passing an electric current through the seawater so that the chemical elements that make up that seawater are arranged either side of a membrane to make a dilute acid and base.
+                Click on the animation below for a more complete explanation.
+            </p>
+            <div class="simple-container2">
+                <video controls playsinline class="crop-img">
+                    <source src="BMEDCycleFinal.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p>
+                To allow the water to recapture CO<sub>2</sub> from the atmosphere, we need to neutralise the acid that was added.
+                This means that when CO<sub>2</sub> is absorbed from the air, 99% of it can again get converted into other forms (carbonate or bicarbonate) for long term storage in the seawater.
+                Absorption of CO<sub>2</sub> from the atmosphere returns the water chemistry to exactly what it was like before it got taken into the pilot plant.
+            </p>
+
+        </section>
+
+        <section>
+            <h3>Approach 2: Making the sponge more absorbent</h3>
+            <p>
+                The second approach can work in a very similar way. However, instead of using the acid to help us to take CO<sub>2</sub> from the water,
+                we can use the same electrochemical approach to take out the acid, or add a base. This leaves the water with a higher pH (less acidic), so it can store more CO<Sub>2</Sub> away (as carbonate and bicarbonate),
+                enabling it to absorb more carbon from the atmosphere.
+                
+            </p>
+        </section>
+
+        <section>
+            <h3>Electrochemistry verses use of purchased chemicals</h3>
+            <p>
+                We leased a large electrochemical unit to generate the acid and base from seawater during our trial in 2025.
+                For shorter tests it will often make more sense to buy in the acid and the base rather than make it from the seawater.
+                We would use exactly the same chemicals (hydrochloric acid and sodium hydroxide) as we produce from the seawater, and they would behave in exactly the same way.
+                Commercially, these chemicals are also produced electrochemically from salt water.
+            </p>
+        </section>
+    </main>
+
+</body>
+</html>

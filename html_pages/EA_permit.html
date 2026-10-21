@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explaining SeaCURE</title>
+    <style>
+        /* =========================================
+           CONFIGURATION AREA - CHANGE COLORS HERE
+        ========================================= */
+        :root {
+            /* Main Titles (H1) */
+            --title-color: #5DAF8B; /* Deep blue/grey */
+            
+            /* Subtitles (H2) */
+            --subtitle-color: #335E96; /* Slightly lighter blue */
+            
+            /* Standard Body Text */
+            --body-text-color: #333333; /* Dark grey (easier to read than pure black) */
+            
+            /* The clickable interactive links */
+            --interactive-color: #0000FF; /* Currently Orange - Change me! */
+            
+            /* The hover background for interactive links */
+            --interactive-hover-bg: #fbeee6; /* Light orange fade */
+            
+            /* Page Background */
+            --main-bg-color: #ffffff;
+        }
+
+        /* --- Basic Page Styling --- */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            /* Using the variables defined above */
+            color: var(--body-text-color);
+            background-color: var(--main-bg-color);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 { color: var(--title-color); }
+        h2 { color: var(--subtitle-color); }
+        
+        /* --- Header & Logo Styling --- */
+        .project-header {
+            text-align: center; /* Centers everything in header */
+            margin-bottom: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .logo-wrapper {
+            /* Flex allows easy side-by-side logos if needed */
+            display: flex; 
+            justify-content: center;
+            gap: 20px; /* Space between logos */
+            margin-bottom: 15px;
+        }
+        .project-logo {
+            max-height: 80px; /* Ensures logos don't dominate the page */
+            width: auto;
+        }
+
+        /* --- Standard Images in text --- */
+        img.standard-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="project-header">
+        <h1>Summary of the permit issued by the Environment Agency for the SeaCURE Research</h1>
+    </header>
+
+    <main>
+        <section>
+            <p>
+            The Environment Agency issued a discharge permit of the low carbon water.
+            This allows release of up to 14200 cubic meters of water per day (in practice the facility could not release more than around 400 cubic meters of water per day ) 
+            within the pH range 7-10.
+            The permit stipulates measurements are made daily during operation, with pH measured at the point where the water leaves the plant, 
+            then upstream and downstream of the point where it enters the drainage ditch. 
+            </p>
+            <figure>
+                <img src="site_plan_EA.jpeg" 
+                    alt="Site plan from permit." 
+                    class="responsive standard-image"> 
+            </figure>
+        </section>
+     </main>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explaining SeaCURE</title>
+    <style>
+        /* =========================================
+           CONFIGURATION AREA - CHANGE COLORS HERE
+        ========================================= */
+        :root {
+            /* Main Titles (H1) */
+            --title-color: #5DAF8B; /* Deep blue/grey */
+            
+            /* Subtitles (H2) */
+            --subtitle-color: #335E96; /* Slightly lighter blue */
+            
+            /* Standard Body Text */
+            --body-text-color: #333333; /* Dark grey (easier to read than pure black) */
+            
+            /* The clickable interactive links */
+            --interactive-color: #0000FF; /* Currently Orange - Change me! */
+            
+            /* The hover background for interactive links */
+            --interactive-hover-bg: #fbeee6; /* Light orange fade */
+            
+            /* Page Background */
+            --main-bg-color: #ffffff;
+        }
+
+        /* --- Basic Page Styling --- */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            /* Using the variables defined above */
+            color: var(--body-text-color);
+            background-color: var(--main-bg-color);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 { color: var(--title-color); }
+        h2 { color: var(--subtitle-color); }
+        
+        /* --- Header & Logo Styling --- */
+        .project-header {
+            text-align: center; /* Centers everything in header */
+            margin-bottom: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .logo-wrapper {
+            /* Flex allows easy side-by-side logos if needed */
+            display: flex; 
+            justify-content: center;
+            gap: 20px; /* Space between logos */
+            margin-bottom: 15px;
+        }
+        .project-logo {
+            max-height: 80px; /* Ensures logos don't dominate the page */
+            width: auto;
+        }
+
+        /* --- Standard Images in text --- */
+        img.standard-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* --- Video Styling --- */
+        .video-container {
+            width: 100%;
+            aspect-ratio: 16 / 9; /* Or whatever shape you want the frame to be */
+            margin: 20px 0;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #000;
+            position: relative;
+        }
+
+        .standard-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* This forces the video to fill the entire container */
+            display: block;
+        }
+
+
+        img.responsive {
+            max-width: 100%;
+            height: auto;         
+            display: block;       
+            margin-inline: auto;  
+        }
+    </style>
+</head>
+<body>
+
+    <header class="project-header">
+        <h1>Rapid dilution of released water</h1>
+    </header>
+
+    <main>
+        <section>
+            <p>
+                The diution of the released low carbon water was examined for our Environment Agency permit application. 
+                This was done using a state-of-the-art model of the seawater flows. 
+                It shows that within meters of the point where the water enters the sea it is diluted by more than 100 times, 
+                i.e. the seawater at that point is at least 99 parts normal seawater to 1 part water that we released. 
+                This is shown in the image below.
+            </p>
+
+            <figure>
+                <img src="fvcom_on_digimap_semi_zoomed_3m3_per_min_continuous_low_res.jpg" 
+                    alt="concentration of decarbonised water from model simulations" 
+                    class="responsive standard-image"> 
+            </figure>
+            <p>These model simulations assumed water was released at a rate over ten times higher than the plant can currently pump, so represents an extreme scenario.</p>
+
+            <p>The video below, taken from a BBC news report, shows the water being discharged from the pilot plant.</p>
+
+            <div class="video-container">
+                <video 
+                    controls 
+                    loop 
+                    muted 
+                    autoplay 
+                    playsinline 
+                    class="standard-video">
+                    <source src="BBC_outflow 480p.mov" type="video/quicktime">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explaining SeaCURE</title>
+    <style>
+        /* =========================================
+           CONFIGURATION AREA - CHANGE COLORS HERE
+        ========================================= */
+        :root {
+            /* Main Titles (H1) */
+            --title-color: #5DAF8B; /* Deep blue/grey */
+            
+            /* Subtitles (H2) */
+            --subtitle-color: #335E96; /* Slightly lighter blue */
+            
+            /* Standard Body Text */
+            --body-text-color: #333333; /* Dark grey (easier to read than pure black) */
+            
+            /* The clickable interactive links */
+            --interactive-color: #0000FF;
+            
+            /* The hover background for interactive links */
+            --interactive-hover-bg: #f0f6ff; /* gentle blue */
+            
+            /* Page Background */
+            --main-bg-color: #ffffff;
+
+            /* Accordion accents */
+            --acc-border: #e5e7eb;
+            --acc-bg: #f9fafb;
+            --acc-focus: #93c5fd;
+            --acc-icon: #6b7280;
+        }
+
+        /* --- Basic Page Styling --- */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            color: var(--body-text-color);
+            background-color: var(--main-bg-color);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 { color: var(--title-color); }
+        h2 { color: var(--subtitle-color); }
+        
+        /* --- Header & Logo Styling --- */
+        .project-header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .logo-wrapper { display: flex; justify-content: center; gap: 20px; margin-bottom: 15px; }
+        .project-logo { max-height: 80px; width: auto; }
+
+        /* --- Standard Images in text --- */
+        img.standard-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        img.responsive {
+            max-width: 100%;
+            height: auto;         
+            display: block;       
+            margin-inline: auto;  
+        }
+
+        /* -----------------------------
+           Minimal Accordion Styles
+        ------------------------------*/
+        .accordion-wrap {
+            margin-top: .5rem;
+            border: 1px solid var(--acc-border);
+            border-radius: 8px;
+            background: #fff;
+        }
+
+        .accordion-toggle {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: .75rem;
+            cursor: pointer;
+            border: 0;
+            background: #fff;
+            padding: .6rem .8rem;
+            font-weight: 600;
+            text-align: left;
+            color: var(--subtitle-color);
+        }
+
+        .accordion-toggle:hover {
+            background: var(--interactive-hover-bg);
+        }
+
+        .accordion-toggle:focus-visible {
+            outline: 3px solid var(--acc-focus);
+            outline-offset: 2px;
+            border-radius: 6px;
+        }
+
+        .accordion-icon {
+            flex: 0 0 auto;
+            width: 1.1rem;
+            height: 1.1rem;
+            border: 1px solid var(--acc-border);
+            border-radius: 4px;
+            color: var(--acc-icon);
+            display: grid;
+            place-items: center;
+            transition: transform .2s ease;
+        }
+
+        .accordion-toggle[aria-expanded="true"] .accordion-icon {
+            transform: rotate(90deg);
+            color: var(--subtitle-color);
+            border-color: #cfeafe;
+        }
+
+        .accordion-panel {
+            border-top: 1px solid var(--acc-border);
+            background: var(--acc-bg);
+            padding: .6rem .8rem;
+        }
+
+        /* Optional: tighten nested list spacing in the accordion */
+        .accordion-panel ul {
+            margin: .4rem 0 .2rem 1rem;
+        }
+        .accordion-panel li {
+            margin: .3rem 0;
+        }
+
+        /* Make the link-like button text inherit link color if you prefer */
+        .accordion-toggle span.label {
+            color: var(--interactive-color);
+        }
+    </style>
+</head>
+<body>
+
+    <header class="project-header">
+        <h1>Explainer: Why we need to think about competition for land</h1>
+    </header>
+
+    <main>
+        <section>
+            <!-- <h2>Can we just decarbonize to get to Net Zero?</h2> -->
+            <p>Other methods of CO<sub>2</sub> removal, such as forest planting and
+                Bioenergy with Carbon Capture and Storage
+                (the burning of wood/plant material in power stations while also capturing most of the carbon coming from the chimney),
+                need large areas of land.
+                This is, and will increasingly be, competing with the use of land for food production.
+                This limits how much carbon can be removed by these approaches.
+             </p>
+  
+            
+
+
+                    <!-- <section class="accordion" id="accordion-cannot-be-decarbonised">
+                    <button class="accordion-toggle" aria-controls="panel-energy-1" aria-expanded="false">
+                        <span class="label">More information on what cannot be decarbonised</span>
+                    </button>
+                    <div id="panel-energy-1" hidden>
+                        <p>Characteristics of the things we can't yet decarbonise:</p>
+                        <ul>
+                            <li>Activities that require temperatures too high to be delivered by heat pumps or heating elements</li>
+                            <li>Activities that require high energy densities (e.g. a battery plane can't fly across the Atlantic, because it is too heavy to take off)</li>
+                            <li>Activities that require uninterrupted heat supply (backup heat/energy storage may be required at levels that cant be delivered by batteries - 
+                                for example, steel solidifying and preventing future use if a smelter runs out of fuel)</li>
+                            <li>Emissions that result from biological processes (that we can't address as we can other things, by switching from fossil fuel, energy/heat to electrical energy/heat)</li>
+                        </ul>
+                    </div>
+                    </section> -->
+ 
+        </section>
+    </main>
+
+
+    <script>
+    // Initialize one accordion container
+    function initAccordion(container) {
+        container.querySelectorAll('.accordion-toggle').forEach(btn => {
+        const panelId = btn.getAttribute('aria-controls');
+        const panel = container.querySelector(`#${CSS.escape(panelId)}`);
+
+        function toggle() {
+            const expanded = btn.getAttribute('aria-expanded') === 'true';
+            btn.setAttribute('aria-expanded', String(!expanded));
+            panel.hidden = expanded;
+
+            // Optional: update label text
+            const lbl = btn.querySelector('.label');
+            if (lbl) lbl.textContent = expanded
+            ? "More details"
+            : "Hide details";
+        }
+
+        btn.addEventListener('click', toggle);
+
+        btn.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && btn.getAttribute('aria-expanded') === 'true') {
+            btn.setAttribute('aria-expanded', 'false');
+            panel.hidden = true;
+            const lbl = btn.querySelector('.label');
+            if (lbl) lbl.textContent = "More details";
+            btn.focus();
+            }
+        });
+        });
+    }
+
+    // Apply to all accordion containers on the page
+    document.querySelectorAll('.accordion').forEach(initAccordion);
+    </script>
+
+
+    <!-- <script>
+        // Minimal, accessible accordion behaviour:
+        // - toggles aria-expanded
+        // - hides/reveals panel using the hidden attribute
+        // - keyboard accessible (button handles Enter/Space; Escape closes if open)
+        document.querySelectorAll('.accordion-toggle').forEach(btn => {
+            const panelId = btn.getAttribute('aria-controls');
+            const panel = document.getElementById(panelId);
+
+            function toggle() {
+                const expanded = btn.getAttribute('aria-expanded') === 'true';
+                btn.setAttribute('aria-expanded', String(!expanded));
+                panel.hidden = expanded;
+                // Optional: update label
+                const lbl = btn.querySelector('.label');
+                if (lbl) lbl.textContent = expanded ? "Details on why some things can't be decarbonised" : 'Hide details';
+            }
+
+            btn.addEventListener('click', toggle);
+
+            btn.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && btn.getAttribute('aria-expanded') === 'true') {
+                    btn.setAttribute('aria-expanded', 'false');
+                    panel.hidden = true;
+                    const lbl = btn.querySelector('.label');
+                    if (lbl) lbl.textContent = "Details on why some things can't be decarbonised";
+                    btn.focus();
+                }
+            });
+        });
+    </script> -->
+
+</body>
+</html>

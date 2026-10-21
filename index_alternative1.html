@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explaining SeaCURE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --title-color: #1A365D; /* Deeper, more authoritative blue */
+            --subtitle-color: #2B6CB0; /* Ocean blue */
+            --body-text-color: #2D3748; /* Dark slate for high contrast */
+            --interactive-color: #0056b3; 
+            --interactive-hover-bg: #EBF8FF; 
+            --main-bg-color: #F7FAFC; /* Very soft cool grey/blue background */
+            --card-bg: #FFFFFF;
+            --accent-color: #38B2AC; /* Seafoam/Teal accent */
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-size: 1.15rem; /* Good readability */
+            line-height: 1.7;
+            color: var(--body-text-color);
+            background-color: var(--main-bg-color);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 { color: var(--title-color); font-size: 2.2rem; line-height: 1.2; }
+        h2 { color: var(--subtitle-color); display: flex; align-items: center; gap: 10px; }
+        h3 { color: var(--subtitle-color); }
+
+        /* Icon styling */
+        h2 i { color: var(--accent-color); font-size: 1.5rem; }
+
+        .project-header { text-align: center; margin-bottom: 40px; }
+        
+        .logo-wrapper {
+            display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap; margin-bottom: 20px;
+            background: white; padding: 15px; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .project-logo { max-height: 70px; width: auto; object-fit: contain; }
+
+        /* Card Layout for Sections */
+        section {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-top: 4px solid var(--accent-color);
+        }
+
+        /* Enhanced Summary Box */
+        .summary-box {
+            background-color: #2B6CB0;
+            color: white;
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 12px;
+            box-shadow: 0 8px 15px rgba(43, 108, 176, 0.2);
+        }
+        .summary-box h2 { color: white; border-bottom: 2px solid rgba(255,255,255,0.3); padding-bottom: 10px; }
+        .summary-box p, .summary-box li { color: #EBF8FF; }
+
+        /* Triggers look more clickable/friendly */
+        .interactive-trigger {
+            color: var(--interactive-color);
+            border-bottom: 2px dashed var(--accent-color);
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        .interactive-trigger:hover { background-color: var(--interactive-hover-bg); border-bottom-style: solid; }
+
+        /* Videos and Images */
+        .simple-container2, .simple-container { width: 100%; border-radius: 8px; overflow: hidden; margin: 20px 0; position: relative; }
+        .simple-container { aspect-ratio: 1433 / 1156; }
+        .crop-img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; transition: opacity 0.4s ease-in-out; }
+        .simple-layer { position: absolute; top: 0; left: 0; z-index: 2; }
+        .complex-layer { position: relative; z-index: 1; }
+        .simple-container:hover .simple-layer { opacity: 0; }
+
+        /* Modals (Kept Exact Same Logic) */
+        .modal-overlay { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.8); backdrop-filter: blur(4px); }
+        .modal-content { background-color: #fefefe; margin: 5% auto; padding: 30px; width: 80%; max-width: 900px; border-radius: 12px; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.5); }
+        .close-btn { color: #aaa; position: absolute; top: 10px; right: 20px; font-size: 35px; font-weight: bold; cursor: pointer; z-index: 1001; }
+        .close-btn:hover { color: #000; }
+        .video-container { position: relative; padding-bottom: 56.25%; height: 0; }
+        .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+        .iframe-container-16x9 { position: relative; padding-bottom: 56.25%; height: 0; background: #f0f0f0; }
+        .iframe-fill { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+        .modal-content.modal-wide { max-width: 1100px; }
+        
+        @media (max-width: 600px) { section { padding: 20px; } h1 { font-size: 1.6rem; } }
+    </style>
+</head>
+<body>
+
+    <header class="project-header">
+        <div class="logo-wrapper">
+            <img src="logos/Exe_logo.svg.png" alt="Main Project Logo" class="project-logo">
+            <img src="logos/PML_Logo.png.webp" alt="Partner Logo" class="project-logo">
+            <img src="logos/SaS_linear_logo_with_strap_CMYK_150x60mm-2.jpg" alt="Partner Logo" class="project-logo">
+        </div>
+        
+        <h1>SeaCURE research in Weymouth - can the ocean help us tackle climate change?</h1>
+
+        <div class="summary-box">
+            <h2><i class="fa-regular fa-clock"></i> 1 minute summary</h2>
+            <p>To slow climate change, and to reduce the build up of acid in our oceans from carbon dioxide, we must cut our use of fossil fuels as much as we can. For the carbon dioxide we still release, we need to remove the same amount from the air to keep things in balance.</p>    
+            <p>The ocean already soaks up carbon dioxide on its own. We are looking at ways to help the ocean take in even more. We are studying two approaches:</p>
+            <ul>
+                <li>Take carbon dioxide out of seawater. This “empties” the water so it can take in more gas from the air.</li>
+                <li>Change the balance of types of carbon in seawater so the water can lock away more carbon dioxide than normal.</li>
+            </ul>
+            <p>The SeaCURE pilot plant at SEA LIFE in Weymouth is the only not for profit site in the world that can study this outside of a lab. We have been testing the first idea and want to start looking at the second.</p>
+            <p>The amount of water we process is small, so it does not harm sea life. But we need more work at the site at small scale to find out if this would still be safe and effective at much larger scales, where it could make a real difference to climate change.</p>
+            <p>This page explains what we have done, why we did it, how it works, and what we plan to do next. We want to share clear information, but also give enough detail so people in the Weymouth area can understand the work and take part in informed conversations about the future of the research.</p>
+        </div>
+        
+        <p style="color: #e53e3e; font-weight: bold;"><i class="fa-solid fa-mobile-screen"></i> Please view on a computer or tablet. This draft is not yet optimised for small screens.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2><i class="fa-solid fa-temperature-arrow-up"></i> Do we need to remove excess Carbon Dioxide from the atmosphere?</h2>
+            <p>Carbon dioxide (CO<sub>2</sub>) is a greenhouse gas that traps heat in the atmosphere and warms the planet. The top priority is to urgently cut our use of fossil fuels, to avoid adding CO<sub>2</sub> to the atmosphere. Removing excess CO<sub>2</sub> from the atmosphere is not a substitute for this, but could allow us to address sectors (such as flying and farming) <span class="interactive-trigger" data-modal="modal-html_page_hard_to_decarbonise">which we don't yet know how to clean up</span>. It could also help us address past CO<sub>2</sub> emissions. By cutting CO<sub>2</sub> emissions as much as possible and then removing CO<sub>2</sub> from the atmosphere to balance the remaining emissions, we can reach what is known as Net Zero. The animation below helps explain this.</p>
+            <div class="simple-container2">
+                <video controls playsinline class="crop-img" style="border-radius: 8px;">
+                    <source src="animations/bathtub.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <section>
+            <h2><i class="fa-solid fa-water"></i> Why the ocean?</h2>
+            <p>The ocean acts like a sponge, absorbing a large share of human-made CO<sub>2</sub>. If you compare the same volume of seawater and air, the seawater contains over 100 times more carbon. Capturing carbon from seawater, or increasing the capacity of the water to hold carbon, could therefore be more practical than <a href="https://climeworks.com/plant-orca" target="_blank" style="color:var(--interactive-color);">capturing carbon from air</a>. Removing CO<sub>2</sub> this way would also <span class="interactive-trigger" data-modal="modal-html_page_compete_for_land">minimise competition for space on land</span>, which limits how much carbon we can remove from the atmosphere by approaches like tree planting.</p>
+        </section>
+
+        <section>
+            <h2><i class="fa-solid fa-gears"></i> How can seawater help remove CO<sub>2</sub> from the atmosphere?</h2>
+            <p>The ocean is where human-emitted CO<sub>2</sub> will ultimately go, but this natural process of carbon removal takes tens of thousands of years. We can speed things up in two different ways. If we think of the ocean as a sponge for CO<sub>2</sub>, we can:</p>
+            <ul>
+                <li>(Option 1) 'squeeze out the sponge', taking carbon out of seawater, so it can refill with CO<sub>2</sub> from the atmosphere. This is known as Direct Ocean Carbon Capture;</li>
+                <li>(Option 2) 'make the sponge more absorbent', increasing the capacity of seawater to hold carbon. This is known as Ocean Alkalinity Enhancement.</li>
+            </ul>
+            <div class="simple-container">
+                <img src="images/DOCC_OAE_super_simple2.png" alt="Detailed process" class="crop-img complex-layer">
+                <img src="images/DOCC_OAE_super_simple.png" alt="Carbon removal process" class="crop-img simple-layer">
+            </div> 
+            <p><span class="interactive-trigger" data-modal="modal-html_page_explaining_the_processes">For a more detailed explanation of the process and the chemistry, click here.</span></p> 
+            <p>Biological ideas like farming seaweed sound promising, but the ocean can only support a certain amount of growth because nutrients are limited. Growing more plants in one place can reduce growth elsewhere and may harm biodiversity. So SeaCURE focuses on engineered methods, which we believe are safer and easier to scale.</p>
+        </section>
+
+        <section>
+            <h2><i class="fa-solid fa-flask"></i> What is SeaCURE?</h2>
+            <p>The SeaCURE team built <span class="interactive-trigger" data-modal="modal-seacure-vimeo-video">a Weymouth pilot plant</span> that can test both engineered approaches (Option 1 and 2). It is the only publicly funded site of its kind outside a lab, and the first pilot of its kind outside the USA. This approach provides an objective view of what works, what doesn't, and the challenges ahead.</p>
+            <p>So far, we have focused on Option 1: removing CO<sub>2</sub> from seawater. The small amount of CO<sub>2</sub> we capture in tests is released back to the air, but at full scale it would be <span class="interactive-trigger" data-modal="modal-html_page_geological_storage">stored deep underground</span> or used in long-lasting products.</p> 
+            <p>SEA LIFE Weymouth provides seawater, space, and strong links to marine science. Together with the large amount of data we already have about the English Channel's biology and chemistry, this makes it an ideal location.</p>
+            
+            <h3><i class="fa-solid fa-check-circle" style="color:var(--accent-color);"></i> What have we done so far?</h3>
+            <p>Over a two-month trial, we showed that the system can remove CO<sub>2</sub> from seawater. We also studied:</p>
+            <ul>
+                <li>Potential marine impacts and how to safeguard the marine environment.</li>
+                <li>How to prove CO<sub>2</sub> is actually removed from the air.</li>
+                <li>Likely energy use and costs. </li>
+                <li>What large-scale operation might look like, and what barriers would need to be overcome.</li>
+            </ul>
+            <p><span class="interactive-trigger" data-modal="modal-reveal-presentation-what-has-seacure-done">To learn more about what the SeaCURE project has done so far click here</span>.</p>
+            <p>The project has been led and run by the <a href="https://www.exeter.ac.uk" target="_blank">University of Exeter</a>, with the <a href="https://pml.ac.uk" target="_blank">Plymouth Marine Laboratory</a>, <a href="https://www.brunel.ac.uk" target="_blank">Brunel University of London</a> and <a href="https://www.eliquohydrok.co.uk" target="_blank">Eliquo Hydrok</a>.</p>
+        </section>
+
+        <section>
+            <h2><i class="fa-solid fa-fish"></i> What about impacts on marine life?</h2>
+            <p>At this small pilot-plant scale, we are confident the process does not harm marine life. The low-carbon seawater we release <span class="interactive-trigger" data-modal="modal-html_page_dilution">dilutes very quickly</span>, returning to normal conditions within a few metres. Our seawater intake pipe is buried under the beach, so fish cannot be sucked in. This is the same seawater intake system that supplies SEA LIFE.</p>
+            <p>We work closely with Defra and the Environment Agency, and follow our <span class="interactive-trigger" data-modal="modal-html_page_EA_permit">Environment Agency Permit</span>. Controls prevent water being released above <span class="interactive-trigger" data-modal="modal-html_page_pH">pH</span> 9.5 (for context, this is the upper limit for UK drinking water).</p>
+            <p>Commercial scale plants would release more water. We need to understand how this might affect ecosystems. We ran laboratory experiments to test this, focusing on marine plankton and mussels. When low-carbon water was mixed with at least an equal volume of ordinary seawater, most species showed only small changes in their growth or activity. However, when low-carbon seawater was mixed with only small amounts of normal seawater, some organisms appeared not to be able to grow, or significantly reduced their activity. This shows the need for more research.</p>
+            <p><span class="interactive-trigger" data-modal="modal-html_page_marine_impacts">For more information about the SeaCURE marine impact experiments click here.</span></p>
+            <p><span class="interactive-trigger" data-modal="modal-html_page_OAE_marine_impacts">For information on the potential environmental impact of increasing the capacity of seawater to hold carbon (Option 2), which has been studied in greater detail, click here.</span></p>
+        </section>  
+
+        <section>
+            <h2><i class="fa-solid fa-arrow-right-long"></i> What's next?</h2>
+            <p>We want to continue our work in Weymouth. Our next priorities are to:</p>
+            <ul>
+                <li><strong>Understand how marine life and ecosystems would react to commercial scale carbon removal</strong>
+                    <p class="bullet-details">Some effects can't be captured in a lab, so experiments in larger on-shore tanks, and potentially at-sea floating tanks, can be used to see how different marine organisms respond over time to the released seawater.</p>
+                </li>
+                <li><strong>Demonstrate fully that removing CO<sub>2</sub> from seawater leads to CO<sub>2</sub> being removed from the air. </strong>
+                    <p class="bullet-details">This could be investigated by tracking the water and simultaneously measuring and modelling how it changes.</p>
+                </li>
+                <li><strong>Broaden our research to look at increasing the capacity of seawater to hold CO<sub>2</sub></strong>
+                    <p class="bullet-details">We want to expand our research to look at 'making the sponge more absorbent' (Option 2). To do this, we would run the pilot plant in a different configuration, to study potential long-term effects on the ocean, challenges, and how well the process removes CO<sub>2</sub>.</p>
+                </li>
+            </ul>
+            <p><span class="interactive-trigger" data-modal="modal-reveal-presentation-what-next">Click here for more details about the kind of activity that could happen from SEA LIFE over the coming years.</span></p>
+        </section> 
+
+        <section>
+            <h2><i class="fa-solid fa-hand-holding-dollar"></i> Who is funding this?</h2>      
+            <p>The first project was funded by the UK Government's Greenhouse Gas Removal Innovation Programme (2021–2025).</p>
+            <p>Since May 2025, support has come from the University of Exeter and the <a href="https://www.carbontosea.org" target="_blank">Carbon to Sea Initiative</a>, a non-profit funding ocean carbon removal research globally. Carbon to Sea have funded workshops to understand the interest and thoughts of the local community.</p>
+            <p>Local community views will help guide future funding applications aiming to make Weymouth a global research hub.</p> 
+        </section>
+
+        <section>
+            <h2><i class="fa-solid fa-lightbulb"></i> Conclusion</h2>      
+            <p>We've shown from a two-month trial that we can remove carbon from seawater, but there is a lot more to be done. The ocean is complex and changes with tides, seasons and year-to-year. Building a full understanding will take time and effort.</p>
+            <p>Meanwhile, we're keeping an open mind. It's too early to know which methods will work best, and we may need a mix to tackle CO₂ effectively.</p>
+            <p>The facility in Weymouth is globally unique. Continued research here helps us gather real world evidence responsibly. This evidence will help the public and policymakers decide whether ocean-based carbon removal can—and should—play a part in tackling climate change, and how we might best do this.</p>
+        </section>
+    </main>
+

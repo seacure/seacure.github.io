@@ -1,0 +1,914 @@
+<!--
+1 To add a normal image:
+Just use a standard HTML image tag exactly where you want it in the text flow.
+<img src="path-to-your-image.jpg" alt="Description" class="standard-image">
+
+2 To add a new "Interactive Clickable Bit":
+In your main text, wrap the text you want to be clickable in a <span> with the class interactive-trigger.
+Crucially, you must give it a unique data-modal name.
+<p>Normally text goes here. <span class="interactive-trigger" data-modal="my-new-secret-info">Click me for secrets!</span></p>
+
+3 To create the hidden content for that click:
+Scroll down to the bottom of the HTML file to the "HIDDEN MODAL SECTION".
+Copy an existing modal block and paste it there. Important: Change the id="" to match the data-modal name you just created in step 2.
+<div id="my-new-secret-info" class="modal-overlay">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>My Secret Info Title</h2>
+        <p>Here is the detailed explanation...</p>
+    </div>
+</div>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="referrer" content="no-referrer"> -->
+    <!-- <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Explaining SeaCURE</title>
+    <style>
+        /* =========================================
+           CONFIGURATION AREA - CHANGE COLORS HERE
+        ========================================= */
+        :root {
+            /* Main Titles (H1) */
+            --title-color: #335E96;
+            /* --title-color: #5DAF8B; */
+            
+            /* Subtitles (H2) */
+            --subtitle-color: #335E96; /* Slightly lighter blue */
+            
+            /* Standard Body Text */
+            --body-text-color: #333333; /* Dark grey (easier to read than pure black) */
+            
+            /* The clickable interactive links */
+            --interactive-color: #0000FF; /* Currently Orange - Change me! */
+            
+            /* The hover background for interactive links */
+            --interactive-hover-bg: #fbeee6; /* Light orange fade */
+            
+            /* Page Background */
+            --main-bg-color: #ffffff;
+        }
+
+        /* --- Basic Page Styling --- */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            /* Using the variables defined above */
+            color: var(--body-text-color);
+            background-color: var(--main-bg-color);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 { color: var(--title-color); }
+        h2 { color: var(--subtitle-color); }
+        
+        /* --- Header & Logo Styling --- */
+        .project-header {
+            text-align: center; /* Centers everything in header */
+            margin-bottom: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .logo-wrapper {
+            /* Flex allows easy side-by-side logos if needed */
+            display: flex; 
+            justify-content: center;
+            gap: 20px; /* Space between logos */
+            margin-bottom: 15px;
+        }
+        .project-logo {
+            max-height: 80px; /* Ensures logos don't dominate the page */
+            width: auto;
+        }
+
+        /* --- Standard Images in text --- */
+        img.standard-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* --- The Interactive "Trigger" Text Styling --- */
+        .interactive-trigger {
+            /* Using the interactive variables */
+            color: var(--interactive-color);
+            border-bottom: 2px dotted var(--interactive-color);
+            cursor: pointer;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+        .interactive-trigger:hover {
+            background-color: var(--interactive-hover-bg);
+        }
+
+        /* --- MODAL STYLES (The Hidden Bits) --- */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.8);
+            backdrop-filter: blur(2px);
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 30px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 900px;
+            border-radius: 12px;
+            position: relative;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+        /* Ensure modal headers use the correct color */
+        .modal-content h2 { color: var(--title-color); }
+
+        .close-btn {
+            color: #aaa;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 35px;
+            font-weight: bold;
+            line-height: 1;
+        }
+        .close-btn:hover, .close-btn:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+        }
+
+        /* Optional modifier to make presentations wider */
+        .modal-content.modal-wide {
+            max-width: 1100px; /* Wider than the standard 900px */
+        }
+
+        /* Container for 16:9 presentations (like standard reveal.js) */
+        .iframe-container-16x9 {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            background: #f0f0f0; /* Placeholder color while loading */
+        }
+
+        /* Container for 4:3 presentations (older style slides) */
+        .iframe-container-4x3 {
+            position: relative;
+            padding-bottom: 75%; /* 4:3 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            background: #f0f0f0;
+        }
+
+        /* Makes the iframe fill the container */
+        .iframe-fill {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Styling for Data Tables inside modals */
+        .modal-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.9em;
+        }
+        .modal-table th,
+        .modal-table td {
+            border: 1px solid #ddd;
+            padding: 12px 15px;
+            text-align: left;
+        }
+        .modal-table th {
+            background-color: var(--subtitle-color);
+            color: white;
+        }
+        .modal-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .crop-box {
+        /* Set the dimensions of the part you want to see */
+        width: 800px; /* The width of the visible rectangle */
+        height: 200px; /* The height of the visible rectangle */
+        
+        /* This is the key property: it hides content that overflows the box */
+        overflow: hidden; 
+        
+        /* Optional: Helps position the animation inside */
+        position: relative; 
+        
+        /* border: 1px solid #ccc; */
+        }
+
+        .animation1 {
+        /* Set the actual size of your animation (which is larger than the crop box) */
+        width: 600px;
+        height: 500px;
+        
+        background-color: #f0f8ff; /* For visualization only */
+        
+        /* This shifts the animation content up and left 
+            to show the center-right part through the crop-box window. */
+        position: absolute;
+        top: -160px; /* Move content 100px up (revealing the part that was below the top edge) */
+        left: 100px; /* Move content 150px left (revealing the part that was to the right of the left edge) */
+        }
+
+        /* *** CRITICAL FIX: Ensure the close button is visible and clickable over the iframe *** */
+        .modal-content .close-btn {
+            z-index: 1001; /* Must be higher than any possible iframe content */
+        }
+
+        /* new code added bwlow */
+
+        /*--- Responsive logo layout ---*/
+        .logo-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;             /* allows wrapping on small screens */
+        }
+
+        .project-logo {
+            height: auto;
+            max-height: 60px;            /* default desktop cap */
+            max-width: 100%;
+            object-fit: contain;
+        }
+
+        /* On small screens, slightly reduce logo height and spacing */
+        @media (max-width: 600px) {
+            body {
+                padding: 16px;
+                max-width: 100%;
+            }
+
+            .project-header {
+                margin-bottom: 24px;
+                padding-bottom: 16px;
+            }
+
+            .logo-wrapper {
+                gap: 8px;
+            }
+
+            .project-logo {
+                max-height: 48px;        /* smaller logos on phones */
+                /* ensure any single logo cannot overflow the viewport width */
+                width: auto;
+                max-width: 40vw;         /* each logo shrinks if needed */
+            }
+
+            h1 { font-size: 1.4rem; line-height: 1.2; }
+            h2 { font-size: 1.15rem; }
+        }
+
+        /* --- Crop-box & animation centering --- */
+        /* .crop-box {
+            width: 100%;                 /* fluid width for small screens */
+            max-width: 800px;            /* keep desktop size cap */
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+            margin: 0 auto;              /* center the box itself */
+        } */
+
+        /* Default placement (desktop) remains as you had */
+        .animation1 {
+            width: 600px;
+            height: 500px;
+            position: absolute;
+            top: -160px;
+            left: 100px;
+        }
+
+        /* On phones, center the animation region within the crop-box */
+        @media (max-width: 600px) {
+            .animation1 {
+                left: 50%;
+                transform: translateX(-50%); /* horizontal centering */
+                /* optional: reduce scale a touch to keep interesting region in view */
+                /* transform: translateX(-50%) scale(0.95); */
+            }
+        }
+
+        /* --- Modal improvements: sizing & video responsiveness --- */
+        .modal-overlay {
+            /* keep as is; we will adjust modal-content for smaller screens */
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 24px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 900px;
+            border-radius: 12px;
+            position: relative;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+
+        /* Make modals more phone-friendly */
+        @media (max-width: 600px) {
+            .modal-content {
+                width: 92vw;             /* near full width */
+                margin: 6vh auto;        /* space from top/bottom */
+                padding: 16px;
+                max-width: none;
+                border-radius: 10px;
+            }
+        }
+
+        /* Keep the close button above iframes */
+        .modal-content .close-btn {
+            z-index: 1001;
+        }
+
+        /* Existing 16:9 container is fine */
+        .iframe-container-16x9 {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            background: #f0f0f0;
+        }
+
+        /* --- New: Square video container for the first modal --- */
+        .square-video {
+            position: relative;
+            width: 100%;
+            /* Use CSS aspect-ratio when available */
+            aspect-ratio: 1 / 1;
+            background: #f0f0f0;
+            overflow: hidden;
+        }
+
+        /* Fallback for older browsers: maintain square via padding trick */
+        .square-video::before {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+        }
+        .square-video > iframe {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Ensure generic video iframes fill their containers */
+        .video-container iframe,
+        .iframe-fill {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Widen “wide” modals but keep them responsive on mobile */
+        .modal-content.modal-wide {
+            max-width: 1100px;
+        }
+        @media (max-width: 600px) {
+            .modal-content.modal-wide {
+                width: 96vw;
+                margin: 4vh auto;
+            }
+        }
+
+        .crop-box {
+            width: 100%;
+            max-width: 800px;
+            /* height: 300px; */
+            height: 175px;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+            background-image: url("animations/ani_outreach5.webp");
+            background-image: url("animations/ani_outreach5_cropped.webp");
+            /* background-image: url("images/annotated_process2.png"); */
+            background-position: center;       /* always center */
+            background-repeat: no-repeat;
+            background-size: cover;            /* or 'contain' if you prefer full image */
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="project-header">
+        <div class="logo-wrapper">
+            <img src="logos/Exe_logo.svg.png" alt="Main Project Logo" class="project-logo">
+            
+            <img src="logos/PML_Logo.png.webp" alt="Partner Logo" class="project-logo">
+
+            <img src="logos/SaS_linear_logo_with_strap_CMYK_150x60mm-2.jpg" alt="Partner Logo" class="project-logo">
+        </div>
+        <h1>SeaCURE at SEA LIFE Weymouth: What's Happening and Why</h1>
+        <p>This page gives a quick overview of the SeaCURE project - what we're doing, how the process works, why it matters and what we could do next. Please click on the links to dig deeper on the topics covered.</p>
+        <p style="color: red;">Please view on a computer of tablet. This draft is not optimised for small screens.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Do we need to remove Carbon Dioxide from the atmosphere? Isn’t that just an excuse to keep burning fossil fuels?</h2>
+
+            <p>
+                While deep cuts to greenhouse gas emissions remain the top priority,
+                <span class="interactive-trigger" data-modal="modal-html_page_hard_to_decarbonise">some sectors are extremely difficult to decarbonise</span>.
+                CO₂ removal must therefore compliment emissions reductions to get us to
+                <span class="interactive-trigger" data-modal="modal-net_zero_animation_video">Net Zero</span> and
+                <span class="interactive-trigger" data-modal="modal-html_page">stabilise the climate</span>. 
+                Net Zero is part of UK policy, 
+                <span class="interactive-trigger" data-modal="modal-uk_policy_animation_video">for context click here.</span>
+            </p>
+            
+
+        </section>
+
+        <section>
+            <h2>What is SeaCURE?</h2>
+
+            <p>
+                SeaCURE is a research project that is developing and testing technology that could allow the ocean to absorb more CO<sub>2</sub> from the air,
+                helping us to reach Net Zero. It is also researching the potential implications of the technology.
+            </p>  
+
+        </section>
+
+        <section>
+            <h2>Why the ocean?</h2>
+
+            <p>The ocean already holds and absorbs a large share of human-made CO<sub>2</sub> 
+            (<span class="interactive-trigger" data-modal="modal-seawater_carbon_basics_video">for an explanation click here</span>). 
+            Capturing carbon from seawater, or allowing the water to hold more carbon, could be more practical than capturing that 
+            carbon from air, and it 
+            <span class="interactive-trigger" data-modal="modal-html_page_compete_for_land">doesn't compete for space on land</span>.
+            </p>
+        </section>
+
+        <section>
+            <h2>Where & who?</h2>
+
+            <p>The SeaCURE project has been led and run by the 
+                <a href="https://www.exeter.ac.uk" target="_blank">University of Exeter</a>, with the
+                <a href="https://pml.ac.uk" target="_blank">Plymouth Marine Laboritory</a>, 
+                <a href="https://www.brunel.ac.uk" target="_blank">Brunel University of London</a> and 
+                <a href="https://www.eliquohydrok.co.uk" target="_blank">Eliquo Hydrok</a>.</p>
+
+            <p>We've built the world's first research-dedicated seawater 
+            <span class="interactive-trigger" data-modal="modal-seacure-vimeo-video">carbon capture plant</span> 
+            at SEA LIFE Weymouth. 
+            SEA LIFE has a strong commitment to marine science and sustainability, a pumped seawater system and space for trialing technology. 
+            Together with the wealth of data we have about English Channel's biology and chemistry, these factors make Weymouth is an 
+            exceptional location for understanding ocean approaches to carbon removal.
+            </p>
+                
+
+            <p>The initial project was funded by the UK Government’s Department for Energy, Security and Net Zero from 2021 to May 2025. Since May we have been supported by the University of Exeter, and the 
+                <a href="https://www.carbontosea.org" target="_blank">Carbon to Sea Initiative</a>
+                 have funded workshops to understand how the local community would like this research to progress.
+                 This work will inform future funding bids aiming to support the site as a global research hub which can examine a wider set of ocean carbon removal questions in detail.</p>
+        </section>
+
+        <section>
+            <h2>How does the process work and what has the SeaCURE plant demonstrated?</h2>
+
+            <p>Seawater is drawn in, briefly acidified to release CO₂ gas, then the added acid is neutralised; the low‑carbon water returns to the sea ready to take up more CO₂.</p>          
+            <div class="crop-box" role="img" aria-label="SeaCURE process animation">
+            </div>  
+            <p>
+            <span class="interactive-trigger" data-modal="modal-seacure_explainer_animation">Click here for a one minute explainer</span> of the process, 
+            or for more detail 
+            <span class="interactive-trigger" data-modal="modal-DOCC_explainer_animation">click here for a three minute explainer</span>.
+            </p>
+
+            <p>Within the SeaCURE project 
+            <span class="interactive-trigger" data-modal="modal-reveal-presentation-what-has-seacure-done">we have been exploring the key questions we need answers to</span>, 
+            if a technology like this is to be part of the solution to climate change.
+            </p>
+
+        </section>  
+        
+        <section>
+            <h2>What happens to the CO<sub>2</sub>?</h2>
+
+            <p>At scale the CO<sub>2</sub> can be 
+                <span class="interactive-trigger" data-modal="modal-html_page_geological_storage">stored deep underground</span>
+                 or used industrially in processes that lock it away. 
+                For the small amounts removed during testing to demonstrate the process, it is currently released.</p>
+        </section>  
+
+        <section>
+            <h2>What about impacts on marine life?</h2>
+
+            <p>Our pilot plant does not present a risk to marine life because the low-carbon seawater is 
+            released slowly and 
+            <span class="interactive-trigger" data-modal="modal-html_page_dilution">mixes rapidly with normal seawater</span>. 
+            The plant uses automated controls to keep the 
+            <span class="interactive-trigger" data-modal="modal-html_page_pH">pH</span>
+            of the released water below 9.5 (the upper limit for UK drinking water), 
+            which ensures compliance with our Environment Agency Permit. For more 
+            <span class="interactive-trigger" data-modal="modal-html_page_EA_permit">details on the permit, click here.</span></p>
+
+            <p>However, releasing low-carbon seawater into the ocean at larger scales could have unintended ecosystem impacts. 
+                Other than 
+                <a href="https://doi.org/10.3389/fclim.2025.1528951" target="_blank">one recently published paper</a>,           
+                there is currently very little research available on the potential effects of low carbon water, 
+                although more research has been conducted on
+                <a href="https://bg.copernicus.org/articles/special_issue1246.html" target="_blank">other ocean carbon removal approaches</a>.
+            </p>
+
+            <p>A key research priority for the SeaCURE project is to understand whether and to what extent marine impacts could occur if 
+                this technology, or similar technologies, are scaled up. To begin addressing these questions, we have carried out laboratory experiments that 
+                investigate the effects of low-carbon seawater on marine plankton (tiny plants and animals that live in the ocean) and blue mussels. 
+                <span class="interactive-trigger" data-modal="modal-html_page_marine_impacts">To find out about the laboratory experiments click here.</span>
+                </p>
+
+        </section>  
+
+        <section>
+            <h2>What's next?</h2>
+
+            <p>
+                We've shown from a two-month trial that we can remove carbon from seawater, but there is a lot more to be done. 
+                The ocean is complex and changes with tides, seasons and between years. 
+                Building a full understanding will take time and a lot more work. Our next priorities are to:
+            </p>
+                <ul>
+                <li>Understand long term, real world impacts that small lab tests can't capture.</li>
+                <li>Clearly show that removing CO<sub>2</sub> from the ocean translates to CO<sub>2</sub> removal from the air, and quantify the efficiency of the removal.</li>
+                </ul>
+            <p>
+                Meanwhile, we're keeping an open mind. It's too early to know which carbon removal methods will work best, and we are likely to need different solutions in different situations. 
+                We are particularly interested in a closely related approach to the one we have studied so far, where the seawater holds additional carbon
+                rather than having its CO<sub>2</sub> 'squeezed out' to then be stored elsewhere. For a brief overview of this approach 
+                <span class="interactive-trigger" data-modal="modal-OAE_explainer_animation">click here</span>
+                and for more detail
+                <span class="interactive-trigger" data-modal="modal-html_page_OAE">click here.</span>
+            </p>
+            <p>
+                The facility in Weymouth is globally unique. Continued research here helps us gather real world evidence responsibly. 
+                This evidence will help the public and policymakers decide whether ocean based carbon removal can—and should—play a part in tackling climate change, and how best to do this.
+            </p>
+            <p>
+                <!-- <span class="interactive-trigger" data-modal="modal-html_page_what_next">Click here for an overview of the kind of activity that could happen from SEA LIFE over the coming years.</span> -->
+                <span class="interactive-trigger" data-modal="modal-reveal-presentation-what-next">Click here for an overview of the kind of activity that could happen from SEA LIFE over the coming years.</span>
+            </p>
+        
+    </main>
+
+<!-- Pop out bits -->
+
+    <!-- video -->
+    <!-- <div id="modal-net_zero_animation_video" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Net Zero Explained</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="videos/net_zero.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div> -->
+
+    <div id="modal-net_zero_animation_video" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Net Zero Explained</h2>
+            <div class="video-container">
+                <iframe src="videos/net_zero.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- <iframe width="560" height="315" src="videos/net_zero.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-uk_policy_animation_video" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Net Zero Explained</h2>
+            <div class="video-container">
+                <iframe src="animations/uk_carbon_emissions_with_explanation.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- <iframe width="560" height="315" src="videos/net_zero.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-seawater_carbon_basics_video" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Seawater carbon basics</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="animations/seawater_carbon_basics.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-pilot_video" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>SeaCURE pilot plant</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="videos/pilot_overview_video.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-seacure_explainer_animation" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>SeaCURE process in a bit more detail</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="animations/SeaCURE_basics.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-DOCC_explainer_animation" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Overview of the chemistry behind key ocean carbon removal approaches</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="animations/OceanCarbonAnimation.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-OAE_explainer_animation" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>An introduction to Ocean Alkalinity Enhancement</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="animations/OceanCarbonAnimationOAE.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- infographic -->
+    <div id="modal-energy" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Detailed Energy Consumption Breakdown</h2>
+            <img src="https://placehold.co/1200x1500/2c3e50/FFF.png?text=Very+Detailed+Complex+Infographic" alt="Detailed Infographic" style="width:100%; height:auto;">
+        </div>
+    </div>
+
+    <!-- External Webpage -->
+    <div id="modal-html_page" class="modal-overlay">
+        <div class="modal-content modal-wide">
+            <span class="close-btn">&times;</span>
+            <div class="iframe-container-16x9">
+                <iframe class="iframe-fill" src="html_pages/stable_climate.html" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-html_page_dilution" class="modal-overlay">
+        <div class="modal-content modal-wide">
+            <span class="close-btn">&times;</span>
+            <div class="iframe-container-16x9">
+                <iframe class="iframe-fill" src="html_pages/dilution.html" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-html_page_pH" class="modal-overlay">
+        <div class="modal-content modal-wide">
+            <span class="close-btn">&times;</span>
+            <div class="iframe-container-16x9">
+                <iframe class="iframe-fill" src="html_pages/pH.html" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-html_page_hard_to_decarbonise" class="modal-overlay">
+        <div class="modal-content modal-wide">
+            <span class="close-btn">&times;</span>
+            <div class="iframe-container-16x9">
+                <iframe class="iframe-fill" src="html_pages/hard_to_decarbonise.html" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-html_page_compete_for_land" class="modal-overlay">
+        <div class="modal-content modal-wide">
+            <span class="close-btn">&times;</span>
+            <div class="iframe-container-16x9">
+                <iframe class="iframe-fill" src="html_pages/competition_for_land.html" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-html_page_geological_storage" class="modal-overlay">
+        <div class="modal-content modal-wide">
+            <span class="close-btn">&times;</span>
+            <div class="iframe-container-16x9">
+                <iframe class="iframe-fill" src="html_pages/geological_storage.html" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    
+    <div id="modal-html_page_EA_permit" class="modal-overlay">
+        <div class="modal-content modal-wide">
+            <span class="close-btn">&times;</span>
+            <div class="iframe-container-16x9">
+                <iframe class="iframe-fill" src="html_pages/EA_permit.html" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-html_page_marine_impacts" class="modal-overlay">
+        <div class="modal-content modal-wide">
+            <span class="close-btn">&times;</span>
+            <div class="iframe-container-16x9">
+                <iframe class="iframe-fill" src="html_pages/marine_impacts.html" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-html_page_what_next" class="modal-overlay">
+        <div class="modal-content modal-wide">
+            <span class="close-btn">&times;</span>
+            <div class="iframe-container-16x9">
+                <iframe class="iframe-fill" src="html_pages/what_next.html" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-html_page_OAE" class="modal-overlay">
+        <div class="modal-content modal-wide">
+            <span class="close-btn">&times;</span>
+            <div class="iframe-container-16x9">
+                <iframe class="iframe-fill" src="html_pages/OAE.html" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Embeding a Vimeo viseo -->
+    <div id="modal-seacure-vimeo-video" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>SeaCURE pilot plant</h2>
+            <div class="video-container">
+                <iframe 
+                    width="100%" 
+                    height="100%"
+                    src="https://player.vimeo.com/video/1146931186?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    title="pilot_overview_video"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            </div>
+    </div>
+
+    <!-- Reveal.js Presentation -->
+     <!-- https://manim-slides.eertmans.be/latest/index.html -->
+    <div id="modal-reveal-presentation" class="modal-overlay">
+        <div class="modal-content modal-wide">
+            <span class="close-btn">&times;</span>
+            <div class="iframe-container-16x9">
+                <iframe class="iframe-fill" src="reveal.js-master/my-reveal-presentation.html" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reveal.js Presentation -->
+     <!-- https://manim-slides.eertmans.be/latest/index.html -->
+    <div id="modal-reveal-presentation-what-has-seacure-done" class="modal-overlay">
+        <div class="modal-content modal-wide">
+            <span class="close-btn">&times;</span>
+            <div class="iframe-container-16x9">
+                <iframe class="iframe-fill" src="reveal.js-master/what_has_seacure_done.html" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reveal.js Presentation -->
+     <!-- https://manim-slides.eertmans.be/latest/index.html -->
+    <div id="modal-reveal-presentation-what-next" class="modal-overlay">
+        <div class="modal-content modal-wide">
+            <span class="close-btn">&times;</span>
+            <div class="iframe-container-16x9">
+                <iframe class="iframe-fill" src="reveal.js-master/what_next.html" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- data table -->
+    <div id="modal-spec-sheet" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Technical Specifications</h2>
+            <p>A breakdown of the hardware requirements for Phase 2.</p>
+            
+            <table class="modal-table">
+                <thead>
+                    <tr>
+                        <th>Component</th>
+                        <th>Requirement</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Processor cores</td>
+                        <td>64</td>
+                        <td>Dedicated</td>
+                    </tr>
+                    <tr>
+                        <td>RAM</td>
+                        <td>512 GB</td>
+                        <td>DDR5 ECC</td>
+                    </tr>
+                    <tr>
+                        <td>Storage IOPS</td>
+                        <td>150,000</td>
+                        <td>Sustained write</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- code snipet -->
+    <div id="modal-config-script" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Bridge Configuration YAML</h2>
+            <p>The raw configuration used for the latency management protocol.</p>
+            
+            <pre style="background: #f4f4f4; padding: 15px; border-radius: 5px; overflow-x: auto;"><code>
+    bridge_settings:
+    protocol: "v4_secure"
+    max_latency_ms: 45
+    buffer_size_mb: 1024
+    retry_policy:
+        attempts: 3
+        backoff: "exponential"
+            </code></pre>
+        </div>
+    </div>
+
+    <script>
+        const triggers = document.querySelectorAll('.interactive-trigger');
+        const closeButtons = document.querySelectorAll('.close-btn');
+        const modals = document.querySelectorAll('.modal-overlay');
+        
+
+        function openModal(modalId) {
+            const modal = document.getElementById(modalId);
+            if (modal) { modal.style.display = "block"; document.body.style.overflow = 'hidden'; }
+        }
+        function closeAllModals() {
+            modals.forEach(modal => { modal.style.display = "none"; });
+            document.body.style.overflow = 'auto';
+        }
+        triggers.forEach(trigger => {
+            trigger.addEventListener('click', function() {
+                const targetModalId = this.getAttribute('data-modal');
+                openModal(targetModalId);
+            });
+        });
+        closeButtons.forEach(btn => { btn.addEventListener('click', closeAllModals); });
+        window.addEventListener('click', function(event) {
+            if (event.target.classList.contains('modal-overlay')) { closeAllModals(); }
+        });
+        document.addEventListener('keydown', function(event) {
+            if (event.key === "Escape") { closeAllModals(); }
+        });
+    </script>
+
+</body>
+</html>

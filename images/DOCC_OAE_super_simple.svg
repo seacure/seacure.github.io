@@ -1,0 +1,1519 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1433.2472"
+   height="1155.6544"
+   viewBox="0 0 379.21333 305.76689"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   sodipodi:docname="DOCC_OAE_super_simple.svg"
+   inkscape:export-filename="/Users/p.halloran/Documents/projects/SeaCURE/Phase_2/figures/DOCC_OAE_super_simple2.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.38021378"
+     inkscape:cx="798.23515"
+     inkscape:cy="469.47273"
+     inkscape:window-width="1400"
+     inkscape:window-height="816"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showguides="true">
+    <sodipodi:guide
+       position="182.94128,445.31993"
+       orientation="0,-1"
+       id="guide704"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="197.91733,615.20442"
+       orientation="0,-1"
+       id="guide705"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="-2.8708334"
+       y="4182.8042"
+       width="1567.4751"
+       height="749.28754"
+       id="rect494" />
+    <rect
+       x="-212.97147"
+       y="-129.6348"
+       width="1577.2235"
+       height="1145.1074"
+       id="rect467" />
+    <rect
+       x="-62.669407"
+       y="394.44861"
+       width="1293.9388"
+       height="399.97827"
+       id="rect35" />
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path21" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-3.7758193,-403.5436)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,13.187265,40.659229)"
+       id="text35"
+       style="font-weight:800;font-size:29.3333px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect35);display:inline;fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:5.66929;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078" />
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.7611px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:end;writing-mode:tb-rl;direction:ltr;text-anchor:end;fill:#8addd9;fill-opacity:1;stroke:#f01024;stroke-width:2;stroke-linecap:round;stroke-miterlimit:1;stroke-opacity:1"
+       x="270.05698"
+       y="452.52863"
+       id="text476"><tspan
+         sodipodi:role="line"
+         id="tspan476"
+         style="stroke-width:2"
+         x="270.05698"
+         y="452.52863" /></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,53.76261,13.678773)"
+       id="text494"
+       style="font-weight:800;font-size:29.3333px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:end;writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect494);display:inline;fill:#8addd9;fill-opacity:1;stroke:#f01024;stroke-width:7.55906;stroke-linecap:round;stroke-miterlimit:1;stroke-opacity:1" />
+    <path
+       style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 673.56648,34.366947 v 18.6466"
+       id="path1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 652.3998,34.366947 v 18.6466"
+       id="path2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 694.73316,34.366947 v 18.6466"
+       id="path3"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="673.4895"
+       y="19.54598"
+       id="text5"><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="673.4895"
+         y="19.54598"
+         id="tspan4">More CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan3">2</tspan> removed so</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="673.4895"
+         y="29.247368"
+         id="tspan5">less in atmosphere</tspan></text>
+    <g
+       id="g8"
+       transform="matrix(1.1390572,0,0,0.99782807,401.20914,0.16499667)"
+       style="stroke-width:1.87599;stroke-dasharray:none">
+      <path
+         style="fill:#a2bffe;fill-opacity:0.901961;stroke:none;stroke-width:1.87599;stroke-dasharray:none;stroke-opacity:0.901961"
+         d="m 318.07826,64.510631 c -5.68253,-3.623017 -15.35975,-3.623017 -21.13198,0 -5.71243,3.62302 -14.92508,3.62302 -20.60761,0 -5.68253,-3.623017 -14.89518,-3.623017 -20.63751,0 -5.74233,3.62302 -14.95498,3.62302 -20.63751,0 -5.68254,-3.623017 -14.89519,-3.623017 -20.57773,0 -5.68253,3.62302 -14.89518,3.62302 -20.57772,0 v 33.897228 h 124.17006 c 0,0 -0.009,-21.278046 0,-33.897228 z"
+         id="path7"
+         sodipodi:nodetypes="ccsscscccc" />
+      <path
+         style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:1.87599;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+         d="m 317.61369,64.510631 c -5.68253,-3.623017 -14.89518,-3.623017 -20.66741,0 -5.71243,3.62302 -14.92508,3.62302 -20.60761,0 -5.68253,-3.623017 -14.89518,-3.623017 -20.63751,0 -5.74233,3.62302 -14.95498,3.62302 -20.63751,0 -5.68254,-3.623017 -14.89519,-3.623017 -20.57773,0 -5.68253,3.62302 -14.89518,3.62302 -20.57772,0"
+         id="path8"
+         sodipodi:nodetypes="ccsscsc" />
+    </g>
+    <g
+       id="g488"
+       transform="translate(343.95851,-318.02931)">
+      <path
+         style="fill:#a2bffe;fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-dasharray:none;stroke-opacity:0.901961"
+         d="m 64.296871,585.6531 130.566999,0.0688 0.0296,-34.35277 c -6.47274,3.61515 -17.56923,3.61515 -24.04195,0 -6.47273,-3.61515 -16.96647,-3.61515 -23.54137,0 -6.50678,3.61515 -17.00052,3.61515 -23.47324,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.50731,0 -6.540839,3.61515 -17.034574,3.61515 -23.507301,0 -3.174108,-1.77281 -8.373506,-2.67626 -12.53316,-2.71036"
+         id="path9"
+         sodipodi:nodetypes="cccscsscc" />
+      <path
+         style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:2.00001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+         d="m 194.29076,551.3691 c -6.47274,3.61515 -16.96647,3.61515 -23.4392,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50679,3.61515 -17.00052,3.61515 -23.47325,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.540845,3.61515 -17.03458,3.61515 -23.507307,0 -3.235184,-1.80691 -7.474881,-2.7107 -11.714953,-2.71136"
+         id="path10"
+         sodipodi:nodetypes="cscsscc" />
+    </g>
+    <g
+       id="g489"
+       transform="translate(343.95851,-301.62513)">
+      <path
+         style="fill:#a2bffe;fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-dasharray:none;stroke-opacity:0.901961"
+         d="m 64.296871,399.91553 130.566999,0.0688 0.0296,-33.82362 c -6.47274,3.61515 -17.56923,3.61515 -24.04195,0 -6.47273,-3.61515 -16.96647,-3.61515 -23.54137,0 -6.50678,3.61515 -17.00052,3.61515 -23.47324,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.50731,0 -6.540839,3.61515 -17.034574,3.61515 -23.507301,0 -3.174108,-1.7728 -8.373506,-2.67626 -12.53316,-2.71036"
+         id="path11"
+         sodipodi:nodetypes="cccscsscc" />
+      <path
+         style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:2.00001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+         d="m 194.29076,366.16068 c -6.47274,3.61516 -16.96647,3.61516 -23.4392,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50679,3.61516 -17.00052,3.61516 -23.47325,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.540845,3.61516 -17.03458,3.61516 -23.507307,0 -3.235184,-1.80691 -7.474881,-2.7107 -11.714953,-2.71136"
+         id="path12"
+         sodipodi:nodetypes="cscsscc" />
+    </g>
+    <g
+       id="g732">
+      <g
+         id="g6"
+         transform="matrix(1.1390572,0,0,0.99782807,401.20914,168.96927)"
+         style="stroke-width:1.87599;stroke-dasharray:none">
+        <path
+           style="fill:#a2bffe;fill-opacity:0.901961;stroke:none;stroke-width:1.87599;stroke-dasharray:none;stroke-opacity:0.901961"
+           d="m 318.07826,64.510631 c -5.68253,-3.623017 -15.35975,-3.623017 -21.13198,0 -5.71243,3.62302 -14.92508,3.62302 -20.60761,0 -5.68253,-3.623017 -14.89518,-3.623017 -20.63751,0 -5.74233,3.62302 -14.95498,3.62302 -20.63751,0 -5.68254,-3.623017 -14.89519,-3.623017 -20.57773,0 -5.68253,3.62302 -14.89518,3.62302 -20.57772,0 v 34.427546 h 124.17006 c 0,0 -0.009,-21.808364 0,-34.427546 z"
+           id="path5"
+           sodipodi:nodetypes="ccsscscccc" />
+        <path
+           style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:1.87599;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+           d="m 317.61369,64.510631 c -5.68253,-3.623017 -14.89518,-3.623017 -20.66741,0 -5.71243,3.62302 -14.92508,3.62302 -20.60761,0 -5.68253,-3.623017 -14.89518,-3.623017 -20.63751,0 -5.74233,3.62302 -14.95498,3.62302 -20.63751,0 -5.68254,-3.623017 -14.89519,-3.623017 -20.57773,0 -5.68253,3.62302 -14.89518,3.62302 -20.57772,0"
+           id="path6"
+           sodipodi:nodetypes="ccsscsc" />
+      </g>
+      <path
+         style="fill:#a2bffe;fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-dasharray:none;stroke-opacity:0.901961"
+         d="m 739.93542,233.33979 c -6.47274,3.61515 -17.56923,3.61515 -24.04196,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50678,3.61515 -17.00052,3.61515 -23.47325,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.54084,3.61515 -17.03458,3.61515 -23.5073,0 -6.47274,-3.61515 -16.96648,-3.61515 -23.43922,0 -6.47272,3.61515 -16.96646,3.61515 -23.4392,0 v 34.35277 h 164.91994 z"
+         id="path13"
+         sodipodi:nodetypes="cscsscscccc" />
+      <path
+         style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:2.00001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+         d="m 739.33266,233.33979 c -6.47273,3.61515 -16.96647,3.61515 -23.4392,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50678,3.61515 -17.00052,3.61515 -23.47325,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.54084,3.61515 -17.03458,3.61515 -23.5073,0 -6.47274,-3.61515 -16.96648,-3.61515 -23.43922,0 -6.47272,3.61515 -16.96646,3.61515 -23.4392,0"
+         id="path14"
+         sodipodi:nodetypes="cscsscsc" />
+    </g>
+    <path
+       style="fill:#a2bff7;fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-dasharray:none;stroke-opacity:0.901961"
+       d="m 739.93542,64.535547 c -6.47274,3.61516 -17.56923,3.61516 -24.04196,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50678,3.61516 -17.00052,3.61516 -23.47325,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.54084,3.61516 -17.03458,3.61516 -23.5073,0 -6.47274,-3.61515 -16.96648,-3.61515 -23.43922,0 -6.47272,3.61516 -16.96646,3.61516 -23.4392,0 v 33.82362 h 164.91994 z"
+       id="path15"
+       sodipodi:nodetypes="cscsscscccc" />
+    <path
+       style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:2.00001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+       d="m 739.33266,64.535547 c -6.47273,3.61516 -16.96647,3.61516 -23.4392,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50678,3.61516 -17.00052,3.61516 -23.47325,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.54084,3.61516 -17.03458,3.61516 -23.5073,0 -6.47274,-3.61515 -16.96648,-3.61515 -23.43922,0 -6.47272,3.61516 -16.96646,3.61516 -23.4392,0"
+       id="path16"
+       sodipodi:nodetypes="cscsscsc" />
+    <ellipse
+       style="fill:#d9ddd9;fill-opacity:1;stroke:#c8c8c8;stroke-width:2.38845;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse16"
+       cx="548.4682"
+       cy="81.788071"
+       rx="38.805775"
+       ry="38.805779" />
+    <path
+       style="fill:#d9ddd9;fill-opacity:1;stroke:#778dbd;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 578.21711,82.727967 h 60.97992"
+       id="path19"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 446.0247,34.366947 v 18.6466"
+       id="path27"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="445.41855"
+       y="19.54598"
+       id="text33"><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="445.41855"
+         y="19.54598"
+         id="tspan27">Ocean naturally</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="445.41855"
+         y="29.247368"
+         id="tspan33">absorbs CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan28">2</tspan></tspan></text>
+    <path
+       style="fill:#d9ddd9;fill-opacity:1;stroke:#ff6961;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 548.22896,114.30365 v 18.64659"
+       id="path33"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="547.99835"
+       y="147.73396"
+       id="text36"><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="547.99835"
+         y="147.73396"
+         id="tspan36">CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan35">2</tspan> removed &amp; stored</tspan></text>
+    <ellipse
+       style="fill:#d9ddd9;fill-opacity:1;stroke:#c8c8c8;stroke-width:2.38846;stroke-dasharray:none;stroke-opacity:0.941176"
+       id="ellipse36"
+       cx="548.08636"
+       cy="251.26862"
+       rx="38.805775"
+       ry="38.805771" />
+    <path
+       style="fill:#d9ddd9;fill-opacity:1;stroke:#778dbd;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="M 482.96704,251.53224 H 506.9053"
+       id="path45"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#d9ddd9;fill-opacity:1;stroke:#778dbd;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 578.21711,251.53224 h 50.39658"
+       id="path49"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 662.98314,203.17122 v 18.6466"
+       id="path50"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 641.81646,203.17122 v 18.6466"
+       id="path51"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:0.310881;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 684.14982,203.17122 v 18.6466"
+       id="path52"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="662.90619"
+       y="188.34979"
+       id="text56"><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="662.90619"
+         y="188.34979"
+         id="tspan53">More CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan52">2</tspan> removed so</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="662.90619"
+         y="198.05118"
+         id="tspan56">less in atmosphere</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="-80.124298"
+       y="402.82657"
+       id="text60"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="-80.124298"
+         y="402.82657"
+         id="tspan60">Option 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="-249.50653"
+       y="402.82657"
+       id="text62"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="-249.50653"
+         y="402.82657"
+         id="tspan61">Option 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="581.55634"
+       y="80.31926"
+       id="text63"><tspan
+         style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="581.55634"
+         y="80.31926"
+         id="tspan63"
+         sodipodi:role="line">Low carbon</tspan><tspan
+         style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="581.55634"
+         y="90.020645"
+         sodipodi:role="line"
+         id="tspan457">seawater</tspan><tspan
+         style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="581.55634"
+         y="90.020645"
+         sodipodi:role="line"
+         id="tspan91"><tspan
+           style="font-size:65%;writing-mode:lr-tb;baseline-shift:sub"
+           id="tspan95" /></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="581.55634"
+       y="248.59422"
+       id="text67"><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="581.55634"
+         y="248.59422"
+         id="tspan65">Low CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan458">2</tspan></tspan><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="581.55634"
+         y="258.29562"
+         id="tspan67">seawater </tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 446.0247,203.17123 v 18.6466"
+       id="path67"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="445.41855"
+       y="188.34979"
+       id="text70"><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="445.41855"
+         y="188.34979"
+         id="tspan68">Ocean naturally</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="445.41855"
+         y="198.05118"
+         id="tspan70">absorbs CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan69">2</tspan></tspan></text>
+    <path
+       style="fill:#d9ddd9;fill-opacity:1;stroke:#778dbd;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="M 482.96704,82.727967 H 506.9053"
+       id="path74"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#8addd9;fill-opacity:1;stroke:#ff6961;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#RoundedArrow);marker-end:url(#RoundedArrow)"
+       d="m 548.22896,198.44123 v 13.35492"
+       id="path453"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="549.58582"
+       y="177.367"
+       id="text454"><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="549.58582"
+         y="177.367"
+         id="tspan454">Acid removed or </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="549.58582"
+         y="187.06839"
+         id="tspan455">alkalinity added</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="412.22284"
+       y="75.556778"
+       id="text480"><tspan
+         style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="412.22284"
+         y="75.556778"
+         sodipodi:role="line"
+         id="tspan480">CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan484">2</tspan> becomes</tspan><tspan
+         style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="412.22284"
+         y="85.258163"
+         sodipodi:role="line"
+         id="tspan482">carbonic acid and</tspan><tspan
+         style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="412.22284"
+         y="94.959549"
+         sodipodi:role="line"
+         id="tspan483">carbonate alkalinity</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="412.22284"
+       y="244.3609"
+       id="text488"><tspan
+         style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="412.22284"
+         y="244.3609"
+         sodipodi:role="line"
+         id="tspan486">CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan485">2</tspan> becomes</tspan><tspan
+         style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="412.22284"
+         y="254.06229"
+         sodipodi:role="line"
+         id="tspan487">carbonic acid and</tspan><tspan
+         style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="412.22284"
+         y="263.76367"
+         sodipodi:role="line"
+         id="tspan488">carbonate alkalinity</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 446.0247,34.366947 v 18.6466"
+       id="path495"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="445.41855"
+       y="19.54598"
+       id="text498"><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="445.41855"
+         y="19.54598"
+         id="tspan496">Ocean naturally</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="445.41855"
+         y="29.247368"
+         id="tspan498">absorbs CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan497">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.7611px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:end;writing-mode:tb-rl;direction:ltr;text-anchor:end;fill:#a2bff7;fill-opacity:1;stroke:#f01024;stroke-width:2;stroke-linecap:round;stroke-miterlimit:1;stroke-opacity:1"
+       x="125.53288"
+       y="0.16529849"
+       id="text537"><tspan
+         sodipodi:role="line"
+         id="tspan537"
+         style="stroke-width:2"
+         x="125.53288"
+         y="0.16529849" /></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:11.2889px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="168.36188"
+       y="5.6825795"
+       id="text541"><tspan
+         sodipodi:role="line"
+         style="font-size:11.2889px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="168.36188"
+         y="5.6825795"
+         id="tspan541">Simple explanation</tspan></text>
+    <g
+       id="g818">
+      <g
+         id="g734"
+         transform="translate(-37.041651,-318.02931)">
+        <path
+           style="fill:#a2bffe;fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-dasharray:none;stroke-opacity:0.901961"
+           d="m 64.296871,585.6531 130.566999,0.0688 0.0296,-34.35277 c -6.47274,3.61515 -17.56923,3.61515 -24.04195,0 -6.47273,-3.61515 -16.96647,-3.61515 -23.54137,0 -6.50678,3.61515 -17.00052,3.61515 -23.47324,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.50731,0 -6.540839,3.61515 -17.034574,3.61515 -23.507301,0 -3.174108,-1.77281 -8.373506,-2.67626 -12.53316,-2.71036"
+           id="path733"
+           sodipodi:nodetypes="cccscsscc" />
+        <path
+           style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:2.00001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+           d="m 194.29076,551.3691 c -6.47274,3.61515 -16.96647,3.61515 -23.4392,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50679,3.61515 -17.00052,3.61515 -23.47325,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.540845,3.61515 -17.03458,3.61515 -23.507307,0 -3.235184,-1.80691 -7.474881,-2.7107 -11.714953,-2.71136"
+           id="path734"
+           sodipodi:nodetypes="cscsscc" />
+      </g>
+      <g
+         id="g738"
+         transform="translate(-381.00018)">
+        <g
+           id="g736"
+           transform="matrix(1.1390572,0,0,0.99782807,401.20914,168.96927)"
+           style="stroke-width:1.87599;stroke-dasharray:none">
+          <path
+             style="fill:#a2bffe;fill-opacity:0.901961;stroke:none;stroke-width:1.87599;stroke-dasharray:none;stroke-opacity:0.901961"
+             d="m 318.07826,64.510631 c -5.68253,-3.623017 -15.35975,-3.623017 -21.13198,0 -5.71243,3.62302 -14.92508,3.62302 -20.60761,0 -5.68253,-3.623017 -14.89518,-3.623017 -20.63751,0 -5.74233,3.62302 -14.95498,3.62302 -20.63751,0 -5.68254,-3.623017 -14.89519,-3.623017 -20.57773,0 -5.68253,3.62302 -14.89518,3.62302 -20.57772,0 v 34.427546 h 124.17006 c 0,0 -0.009,-21.808364 0,-34.427546 z"
+             id="path735"
+             sodipodi:nodetypes="ccsscscccc" />
+          <path
+             style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:1.87599;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+             d="m 317.61369,64.510631 c -5.68253,-3.623017 -14.89518,-3.623017 -20.66741,0 -5.71243,3.62302 -14.92508,3.62302 -20.60761,0 -5.68253,-3.623017 -14.89518,-3.623017 -20.63751,0 -5.74233,3.62302 -14.95498,3.62302 -20.63751,0 -5.68254,-3.623017 -14.89519,-3.623017 -20.57773,0 -5.68253,3.62302 -14.89518,3.62302 -20.57772,0"
+             id="path736"
+             sodipodi:nodetypes="ccsscsc" />
+        </g>
+        <path
+           style="fill:#a2bffe;fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-dasharray:none;stroke-opacity:0.901961"
+           d="m 739.93542,233.33979 c -6.47274,3.61515 -17.56923,3.61515 -24.04196,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50678,3.61515 -17.00052,3.61515 -23.47325,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.54084,3.61515 -17.03458,3.61515 -23.5073,0 -6.47274,-3.61515 -16.96648,-3.61515 -23.43922,0 -6.47272,3.61515 -16.96646,3.61515 -23.4392,0 v 34.35277 h 164.91994 z"
+           id="path737"
+           sodipodi:nodetypes="cscsscscccc" />
+        <path
+           style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:2.00001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+           d="m 739.33266,233.33979 c -6.47273,3.61515 -16.96647,3.61515 -23.4392,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50678,3.61515 -17.00052,3.61515 -23.47325,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.54084,3.61515 -17.03458,3.61515 -23.5073,0 -6.47274,-3.61515 -16.96648,-3.61515 -23.43922,0 -6.47272,3.61515 -16.96646,3.61515 -23.4392,0"
+           id="path738"
+           sodipodi:nodetypes="cscsscsc" />
+      </g>
+      <ellipse
+         style="fill:#d9ddd9;fill-opacity:1;stroke:#c8c8c8;stroke-width:2.38846;stroke-dasharray:none;stroke-opacity:0.941176"
+         id="ellipse738"
+         cx="167.08665"
+         cy="251.26862"
+         rx="38.805775"
+         ry="38.805771" />
+      <path
+         style="fill:#a2bff7;fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-dasharray:none;stroke-opacity:0.901961"
+         d="m 358.93518,64.535547 c -6.47274,3.61516 -17.56923,3.61516 -24.04196,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50678,3.61516 -17.00052,3.61516 -23.47325,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.54084,3.61516 -17.03458,3.61516 -23.5073,0 -6.47274,-3.61515 -16.96648,-3.61515 -23.43922,0 -6.47272,3.61516 -16.96646,3.61516 -23.4392,0 v 33.82362 h 164.91994 z"
+         id="path731"
+         sodipodi:nodetypes="cscsscscccc" />
+      <path
+         style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:2.00001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+         d="m 358.33242,64.535547 c -6.47273,3.61516 -16.96647,3.61516 -23.4392,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50678,3.61516 -17.00052,3.61516 -23.47325,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.54084,3.61516 -17.03458,3.61516 -23.5073,0 -6.47274,-3.61515 -16.96648,-3.61515 -23.43922,0 -6.47272,3.61516 -16.96646,3.61516 -23.4392,0"
+         id="path732"
+         sodipodi:nodetypes="cscsscsc" />
+      <g
+         id="g728"
+         transform="matrix(1.1390572,0,0,0.99782807,20.208948,0.16499667)"
+         style="stroke-width:1.87599;stroke-dasharray:none">
+        <path
+           style="fill:#a2bffe;fill-opacity:0.901961;stroke:none;stroke-width:1.87599;stroke-dasharray:none;stroke-opacity:0.901961"
+           d="m 318.07826,64.510631 c -5.68253,-3.623017 -15.35975,-3.623017 -21.13198,0 -5.71243,3.62302 -14.92508,3.62302 -20.60761,0 -5.68253,-3.623017 -14.89518,-3.623017 -20.63751,0 -5.74233,3.62302 -14.95498,3.62302 -20.63751,0 -5.68254,-3.623017 -14.89519,-3.623017 -20.57773,0 -5.68253,3.62302 -14.89518,3.62302 -20.57772,0 v 33.897228 h 124.17006 c 0,0 -0.009,-21.278046 0,-33.897228 z"
+           id="path727"
+           sodipodi:nodetypes="ccsscscccc" />
+        <path
+           style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:1.87599;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+           d="m 317.61369,64.510631 c -5.68253,-3.623017 -14.89518,-3.623017 -20.66741,0 -5.71243,3.62302 -14.92508,3.62302 -20.60761,0 -5.68253,-3.623017 -14.89518,-3.623017 -20.63751,0 -5.74233,3.62302 -14.95498,3.62302 -20.63751,0 -5.68254,-3.623017 -14.89519,-3.623017 -20.57773,0 -5.68253,3.62302 -14.89518,3.62302 -20.57772,0"
+           id="path728"
+           sodipodi:nodetypes="ccsscsc" />
+      </g>
+      <g
+         id="g730"
+         transform="translate(-37.041651,-301.62513)">
+        <path
+           style="fill:#a2bffe;fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-dasharray:none;stroke-opacity:0.901961"
+           d="m 64.296871,399.91553 130.566999,0.0688 0.0296,-33.82362 c -6.47274,3.61515 -17.56923,3.61515 -24.04195,0 -6.47273,-3.61515 -16.96647,-3.61515 -23.54137,0 -6.50678,3.61515 -17.00052,3.61515 -23.47324,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.50731,0 -6.540839,3.61515 -17.034574,3.61515 -23.507301,0 -3.174108,-1.7728 -8.373506,-2.67626 -12.53316,-2.71036"
+           id="path729"
+           sodipodi:nodetypes="cccscsscc" />
+        <path
+           style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:2.00001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+           d="m 194.29076,366.16068 c -6.47274,3.61516 -16.96647,3.61516 -23.4392,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50679,3.61516 -17.00052,3.61516 -23.47325,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.540845,3.61516 -17.03458,3.61516 -23.507307,0 -3.235184,-1.80691 -7.474881,-2.7107 -11.714953,-2.71136"
+           id="path730"
+           sodipodi:nodetypes="cscsscc" />
+      </g>
+      <ellipse
+         style="fill:#d9ddd9;fill-opacity:1;stroke:#c8c8c8;stroke-width:2.38845;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse731"
+         cx="167.46849"
+         cy="81.788071"
+         rx="38.805775"
+         ry="38.805779" />
+      <path
+         style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+         d="M 65.024515,34.366929 V 53.013517"
+         id="path515"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="64.418411"
+         y="19.546143"
+         id="text517"><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="64.418411"
+           y="19.546143"
+           id="tspan515">Ocean naturally</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="64.418411"
+           y="29.24753"
+           id="tspan517">absorbs CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan516">2</tspan></tspan></text>
+      <path
+         style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+         d="m 65.024515,203.70034 v 18.6466"
+         id="path519"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="64.418411"
+         y="188.8795"
+         id="text522"><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="64.418411"
+           y="188.8795"
+           id="tspan520">Ocean naturally</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="64.418411"
+           y="198.58089"
+           id="tspan522">absorbs CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan521">2</tspan></tspan></text>
+      <path
+         style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+         d="m 292.5663,34.366933 v 18.64658"
+         id="path24"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+         d="m 271.39962,34.366933 v 18.64658"
+         id="path25"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+         d="m 313.73298,34.366933 v 18.64658"
+         id="path26"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="292.48929"
+         y="19.546162"
+         id="text29"><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="292.48929"
+           y="19.546162"
+           id="tspan29">More CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan31">2</tspan> removed so</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="292.48929"
+           y="29.247549"
+           id="tspan30">less in atmosphere</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="167.1868"
+         y="75.837311"
+         id="text10"><tspan
+           sodipodi:role="line"
+           id="tspan10"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="167.1868"
+           y="75.837311">Seawater</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="167.1868"
+           y="85.538696"
+           id="tspan98">CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan26">2</tspan></tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="167.1868"
+           y="95.240082"
+           id="tspan11">removed</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="167.1868"
+         y="240.40834"
+         id="text43"><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="167.1868"
+           y="240.40834"
+           id="tspan43">Seawater</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="167.1868"
+           y="250.10973"
+           id="tspan54">capacity to</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="167.1868"
+           y="259.81113"
+           id="tspan55">hold CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan59">2</tspan></tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="167.1868"
+           y="269.51251"
+           id="tspan103">increased</tspan></text>
+      <path
+         style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+         d="m 281.98296,203.70033 v 18.6466"
+         id="path46"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+         d="m 260.81628,203.70033 v 18.6466"
+         id="path47"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:0.310881;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+         d="m 303.14964,203.70033 v 18.6466"
+         id="path48"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="281.90598"
+         y="188.87952"
+         id="text50"><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="281.90598"
+           y="188.87952"
+           id="tspan49">More CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan48">2</tspan> removed so</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="281.90598"
+           y="198.5809"
+           id="tspan50">less in atmosphere</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="378.1474"
+         y="244.3613"
+         id="text79"><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;text-align:end;text-anchor:end;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="378.1474"
+           y="244.3613"
+           id="tspan79">Seawater containing</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;text-align:end;text-anchor:end;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="378.1474"
+           y="254.06268"
+           id="tspan80">more carbon</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="378.52313"
+         y="75.027878"
+         id="text82"><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;text-align:end;text-anchor:end;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="378.52313"
+           y="75.027878"
+           id="tspan82">Seawater with normal</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;text-align:end;text-anchor:end;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="378.52313"
+           y="84.729263"
+           id="tspan104">levels of carbon</tspan></text>
+      <path
+         style="fill:#d9ddd9;fill-opacity:1;stroke:#778dbd;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+         d="m 197.21687,82.727967 h 60.97992"
+         id="path546"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#d9ddd9;fill-opacity:1;stroke:#778dbd;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+         d="m 197.21687,252.06141 h 50.39658"
+         id="path547"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="200.5565"
+         y="80.31926"
+         id="text550"><tspan
+           style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="200.5565"
+           y="80.31926"
+           id="tspan547"
+           sodipodi:role="line">Low carbon</tspan><tspan
+           style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="200.5565"
+           y="90.020645"
+           sodipodi:role="line"
+           id="tspan548">seawater</tspan><tspan
+           style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="200.5565"
+           y="90.020645"
+           sodipodi:role="line"
+           id="tspan550"><tspan
+             style="font-size:65%;writing-mode:lr-tb;baseline-shift:sub"
+             id="tspan549" /></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="200.5565"
+         y="249.12338"
+         id="text553"><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="200.5565"
+           y="249.12338"
+           id="tspan552">Low CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan551">2</tspan></tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="200.5565"
+           y="258.82477"
+           id="tspan553">seawater </tspan></text>
+      <path
+         style="fill:#d9ddd9;fill-opacity:1;stroke:#778dbd;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+         d="m 101.9668,252.06141 h 23.93826"
+         id="path553"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#d9ddd9;fill-opacity:1;stroke:#778dbd;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+         d="m 101.9668,82.727967 h 23.93826"
+         id="path554"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="-80.124298"
+         y="21.82674"
+         id="text816"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="-80.124298"
+           y="21.82674"
+           id="tspan816">Option 1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="-249.50653"
+         y="21.82674"
+         id="text817"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="-249.50653"
+           y="21.82674"
+           id="tspan817">Option 2</tspan></text>
+    </g>
+    <g
+       id="g891"
+       transform="translate(-37.041651,100.01256)">
+      <path
+         style="fill:#a2bffe;fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-dasharray:none;stroke-opacity:0.901961"
+         d="m 64.296871,585.6531 130.566999,0.0688 0.0296,-34.35277 c -6.47274,3.61515 -17.56923,3.61515 -24.04195,0 -6.47273,-3.61515 -16.96647,-3.61515 -23.54137,0 -6.50678,3.61515 -17.00052,3.61515 -23.47324,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.50731,0 -6.540839,3.61515 -17.034574,3.61515 -23.507301,0 -3.174108,-1.77281 -8.373506,-2.67626 -12.53316,-2.71036"
+         id="path890"
+         sodipodi:nodetypes="cccscsscc" />
+      <path
+         style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:2.00001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+         d="m 194.29076,551.3691 c -6.47274,3.61515 -16.96647,3.61515 -23.4392,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50679,3.61515 -17.00052,3.61515 -23.47325,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.540845,3.61515 -17.03458,3.61515 -23.507307,0 -3.235184,-1.80691 -7.474881,-2.7107 -11.714953,-2.71136"
+         id="path891"
+         sodipodi:nodetypes="cscsscc" />
+    </g>
+    <path
+       style="fill:#a2bffe;fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-dasharray:none;stroke-opacity:0.901961"
+       d="m 382.51829,651.38166 c -6.47272,-3.61515 -17.49563,-3.61515 -24.07053,0 -6.50679,3.61515 -17.00052,3.61515 -23.47325,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.54084,3.61515 -17.03458,3.61515 -23.50731,0 -6.47274,-3.61515 -16.96647,-3.61515 -23.43921,0 -6.47273,3.61515 -16.96646,3.61515 -23.4392,0 v 34.35277 h 141.4368 c 0,0 -0.0102,-21.761 0,-34.35277 z"
+       id="path892"
+       sodipodi:nodetypes="ccsscscccc" />
+    <path
+       style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:2.00001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+       d="m 381.98912,651.38166 c -6.47273,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50679,3.61515 -17.00052,3.61515 -23.47325,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.54084,3.61515 -17.03458,3.61515 -23.50731,0 -6.47274,-3.61515 -16.96647,-3.61515 -23.43921,0 -6.47273,3.61515 -16.96646,3.61515 -23.4392,0"
+       id="path893"
+       sodipodi:nodetypes="ccsscsc" />
+    <path
+       style="fill:#a2bffe;fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-dasharray:none;stroke-opacity:0.901961"
+       d="m 358.93524,651.38166 c -6.47274,3.61515 -17.56923,3.61515 -24.04196,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50678,3.61515 -17.00052,3.61515 -23.47325,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.54084,3.61515 -17.03458,3.61515 -23.5073,0 -6.47274,-3.61515 -16.96648,-3.61515 -23.43922,0 -6.47272,3.61515 -16.96646,3.61515 -23.4392,0 v 34.35277 h 164.91994 z"
+       id="path894"
+       sodipodi:nodetypes="cscsscscccc" />
+    <path
+       style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:2.00001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+       d="m 358.33248,651.38166 c -6.47273,3.61515 -16.96647,3.61515 -23.4392,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50678,3.61515 -17.00052,3.61515 -23.47325,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.54084,3.61515 -17.03458,3.61515 -23.5073,0 -6.47274,-3.61515 -16.96648,-3.61515 -23.43922,0 -6.47272,3.61515 -16.96646,3.61515 -23.4392,0"
+       id="path895"
+       sodipodi:nodetypes="cscsscsc" />
+    <ellipse
+       style="fill:#d9ddd9;fill-opacity:1;stroke:#c8c8c8;stroke-width:2.38846;stroke-dasharray:none;stroke-opacity:0.941176"
+       id="ellipse895"
+       cx="167.08665"
+       cy="669.31049"
+       rx="38.805775"
+       ry="38.805771" />
+    <path
+       style="fill:#a2bff7;fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-dasharray:none;stroke-opacity:0.901961"
+       d="m 358.93518,482.57742 c -6.47274,3.61516 -17.56923,3.61516 -24.04196,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50678,3.61516 -17.00052,3.61516 -23.47325,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.54084,3.61516 -17.03458,3.61516 -23.5073,0 -6.47274,-3.61515 -16.96648,-3.61515 -23.43922,0 -6.47272,3.61516 -16.96646,3.61516 -23.4392,0 v 33.82362 h 164.91994 z"
+       id="path896"
+       sodipodi:nodetypes="cscsscscccc" />
+    <path
+       style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:2.00001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+       d="m 358.33242,482.57742 c -6.47273,3.61516 -16.96647,3.61516 -23.4392,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50678,3.61516 -17.00052,3.61516 -23.47325,0 -6.47272,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.54084,3.61516 -17.03458,3.61516 -23.5073,0 -6.47274,-3.61515 -16.96648,-3.61515 -23.43922,0 -6.47272,3.61516 -16.96646,3.61516 -23.4392,0"
+       id="path897"
+       sodipodi:nodetypes="cscsscsc" />
+    <path
+       style="fill:#a2bffe;fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-dasharray:none;stroke-opacity:0.901961"
+       d="m 382.51828,482.57739 c -6.47273,-3.61515 -17.49563,-3.61515 -24.07053,0 -6.50679,3.61515 -17.00052,3.61515 -23.47325,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.54085,3.61515 -17.03458,3.61515 -23.50731,0 -6.47274,-3.61515 -16.96647,-3.61515 -23.43921,0 -6.47273,3.61515 -16.96646,3.61515 -23.4392,0 v 33.8236 h 141.4368 c 0,0 -0.0102,-21.23183 0,-33.8236 z"
+       id="path898"
+       sodipodi:nodetypes="ccsscscccc" />
+    <path
+       style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:2.00001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+       d="m 381.98911,482.57739 c -6.47273,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50679,3.61515 -17.00052,3.61515 -23.47325,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.54085,3.61515 -17.03458,3.61515 -23.50731,0 -6.47274,-3.61515 -16.96647,-3.61515 -23.43921,0 -6.47273,3.61515 -16.96646,3.61515 -23.4392,0"
+       id="path899"
+       sodipodi:nodetypes="ccsscsc" />
+    <g
+       id="g901"
+       transform="translate(-37.041651,116.41674)">
+      <path
+         style="fill:#a2bffe;fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-dasharray:none;stroke-opacity:0.901961"
+         d="m 64.296871,399.91553 130.566999,0.0688 0.0296,-33.82362 c -6.47274,3.61515 -17.56923,3.61515 -24.04195,0 -6.47273,-3.61515 -16.96647,-3.61515 -23.54137,0 -6.50678,3.61515 -17.00052,3.61515 -23.47324,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.50731,0 -6.540839,3.61515 -17.034574,3.61515 -23.507301,0 -3.174108,-1.7728 -8.373506,-2.67626 -12.53316,-2.71036"
+         id="path900"
+         sodipodi:nodetypes="cccscsscc" />
+      <path
+         style="fill:none;fill-opacity:0.397626;stroke:#778dbd;stroke-width:2.00001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:0.996078"
+         d="m 194.29076,366.16068 c -6.47274,3.61516 -16.96647,3.61516 -23.4392,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.54136,0 -6.50679,3.61516 -17.00052,3.61516 -23.47325,0 -6.47273,-3.61515 -16.96646,-3.61515 -23.5073,0 -6.540845,3.61516 -17.03458,3.61516 -23.507307,0 -3.235184,-1.80691 -7.474881,-2.7107 -11.714953,-2.71136"
+         id="path901"
+         sodipodi:nodetypes="cscsscc" />
+    </g>
+    <ellipse
+       style="fill:#d9ddd9;fill-opacity:1;stroke:#c8c8c8;stroke-width:2.38845;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse901"
+       cx="167.46849"
+       cy="499.82993"
+       rx="38.805775"
+       ry="38.805779" />
+    <path
+       style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 65.024515,452.4088 v 18.64659"
+       id="path902"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="64.418411"
+       y="437.58801"
+       id="text904"><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="64.418411"
+         y="437.58801"
+         id="tspan902">Ocean naturally</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="64.418411"
+         y="447.2894"
+         id="tspan904">absorbs CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan903">2</tspan></tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 65.024515,621.74221 v 18.6466"
+       id="path904"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="64.418411"
+       y="606.92139"
+       id="text907"><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="64.418411"
+         y="606.92139"
+         id="tspan905">Ocean naturally</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="64.418411"
+         y="616.6228"
+         id="tspan907">absorbs CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan906">2</tspan></tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 292.5663,452.4088 v 18.64658"
+       id="path907"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 271.39962,452.4088 v 18.64658"
+       id="path908"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 313.73298,452.4088 v 18.64658"
+       id="path909"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="292.48929"
+       y="437.58804"
+       id="text911"><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="292.48929"
+         y="437.58804"
+         id="tspan910">More CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan909">2</tspan> removed so</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="292.48929"
+         y="447.28943"
+         id="tspan911">less in atmosphere</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 281.98296,621.7422 v 18.6466"
+       id="path920"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:0.388235;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 260.81628,621.7422 v 18.6466"
+       id="path921"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:0.310881;stroke:#fee156;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 303.14964,621.7422 v 18.6466"
+       id="path922"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="281.90598"
+       y="606.92139"
+       id="text924"><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="281.90598"
+         y="606.92139"
+         id="tspan923">More CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan922">2</tspan> removed so</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="281.90598"
+         y="616.6228"
+         id="tspan924">less in atmosphere</tspan></text>
+    <path
+       style="fill:#d9ddd9;fill-opacity:1;stroke:#778dbd;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 197.21687,500.76984 h 60.97992"
+       id="path928"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#d9ddd9;fill-opacity:1;stroke:#778dbd;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 197.21687,670.10328 h 50.39658"
+       id="path929"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="200.5565"
+       y="498.36111"
+       id="text932"><tspan
+         style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="200.5565"
+         y="498.36111"
+         id="tspan929"
+         sodipodi:role="line">Low carbon</tspan><tspan
+         style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="200.5565"
+         y="508.0625"
+         sodipodi:role="line"
+         id="tspan930">seawater</tspan><tspan
+         style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="200.5565"
+         y="508.0625"
+         sodipodi:role="line"
+         id="tspan932"><tspan
+           style="font-size:65%;writing-mode:lr-tb;baseline-shift:sub"
+           id="tspan931" /></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="200.5565"
+       y="667.16522"
+       id="text935"><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="200.5565"
+         y="667.16522"
+         id="tspan934">Low CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan933">2</tspan></tspan><tspan
+         sodipodi:role="line"
+         style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="200.5565"
+         y="676.86664"
+         id="tspan935">seawater </tspan></text>
+    <path
+       style="fill:#d9ddd9;fill-opacity:1;stroke:#778dbd;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 101.9668,670.10328 h 23.93826"
+       id="path935"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#d9ddd9;fill-opacity:1;stroke:#778dbd;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#RoundedArrow)"
+       d="m 101.9668,500.76984 h 23.93826"
+       id="path936"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:9.87778px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="-498.16617"
+       y="11.243407"
+       id="text936"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         style="font-size:9.87778px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="-498.16617"
+         y="11.243407"
+         id="tspan936">Direct Ocean</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:9.87778px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="-498.16617"
+         y="23.590631"
+         id="tspan21">Carbon Capture</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:9.87778px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="-667.5484"
+       y="11.243407"
+       id="text937"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         style="font-size:9.87778px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="-667.5484"
+         y="11.243407"
+         id="tspan937">Ocean Alkalinity</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:9.87778px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="-667.5484"
+         y="23.590631"
+         id="tspan20">Enhancement</tspan></text>
+    <g
+       id="g937"
+       transform="translate(-433.91688)">
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="167.1868"
+         y="493.87918"
+         id="text915"><tspan
+           sodipodi:role="line"
+           id="tspan912"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="167.1868"
+           y="493.87918">Seawater</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="167.1868"
+           y="503.58057"
+           id="tspan914">CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan913">2</tspan></tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="167.1868"
+           y="513.28198"
+           id="tspan915">removed</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="167.1868"
+         y="658.4502"
+         id="text920"><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="167.1868"
+           y="658.4502"
+           id="tspan916">Seawater</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="167.1868"
+           y="668.15161"
+           id="tspan917">capacity to</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="167.1868"
+           y="677.85297"
+           id="tspan919">hold CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan918">2</tspan></tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="167.1868"
+           y="687.55438"
+           id="tspan920">increased</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="378.1474"
+         y="662.40314"
+         id="text926"><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;text-align:end;text-anchor:end;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="378.1474"
+           y="662.40314"
+           id="tspan925">Seawater containing</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;text-align:end;text-anchor:end;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="378.1474"
+           y="672.10455"
+           id="tspan926">more carbon</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="378.52313"
+         y="493.06973"
+         id="text928"><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;text-align:end;text-anchor:end;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="378.52313"
+           y="493.06973"
+           id="tspan927">Seawater with normal</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;text-align:end;text-anchor:end;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="378.52313"
+           y="502.77112"
+           id="tspan928">levels of carbon</tspan></text>
+    </g>
+    <g
+       id="g942">
+      <g
+         id="g938"
+         transform="translate(-381.00018,418.04187)">
+        <text
+           xml:space="preserve"
+           style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           x="548.18701"
+           y="70.016159"
+           id="text19"><tspan
+             sodipodi:role="line"
+             style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="548.18701"
+             y="70.016159"
+             id="tspan492">Carbonate and</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="548.18701"
+             y="79.717545"
+             id="tspan23">bicarbonate</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="548.18701"
+             y="89.41893"
+             id="tspan490">converted</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="548.18701"
+             y="99.120323"
+             id="tspan19">to CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan491">2</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:52.7624;display:inline;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           x="167.1868"
+           y="515.57452"
+           transform="translate(381.00018,-276.22514)"
+           id="text23" />
+        <text
+           xml:space="preserve"
+           style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           x="759.14764"
+           y="243.83173"
+           id="text72"><tspan
+             sodipodi:role="line"
+             style="font-size:7.76111px;text-align:end;text-anchor:end;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="759.14764"
+             y="243.83173"
+             id="tspan72">CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan470">2</tspan> levels back to normal,</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:7.76111px;text-align:end;text-anchor:end;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="759.14764"
+             y="253.53311"
+             id="tspan57">but extra carbon stored</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:7.76111px;text-align:end;text-anchor:end;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="759.14764"
+             y="263.2345"
+             id="tspan58">as bicarbonate</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           x="759.52338"
+           y="75.027603"
+           id="text74"><tspan
+             sodipodi:role="line"
+             style="font-size:7.76111px;text-align:end;text-anchor:end;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="759.52338"
+             y="75.027603"
+             id="tspan74">Back to normal</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:7.76111px;text-align:end;text-anchor:end;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="759.52338"
+             y="84.728989"
+             id="tspan493">seawater carbon</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:7.76111px;text-align:end;text-anchor:end;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="759.52338"
+             y="94.430374"
+             id="tspan494">composition</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           x="412.22284"
+           y="75.556778"
+           id="text507"><tspan
+             style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="412.22284"
+             y="75.556778"
+             sodipodi:role="line"
+             id="tspan41">99% of CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan44">2</tspan>  naturally</tspan><tspan
+             style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="412.22284"
+             y="85.258163"
+             sodipodi:role="line"
+             id="tspan73">becomes bicarbonate</tspan><tspan
+             style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="412.22284"
+             y="94.959549"
+             sodipodi:role="line"
+             id="tspan42">and carbonate</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           x="412.22284"
+           y="244.3609"
+           id="text511"><tspan
+             style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="412.22284"
+             y="244.3609"
+             sodipodi:role="line"
+             id="tspan46">99% of CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan51">2</tspan> naturally</tspan><tspan
+             style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="412.22284"
+             y="254.06229"
+             sodipodi:role="line"
+             id="tspan71">becomes bicarbonate</tspan><tspan
+             style="font-size:7.76111px;text-align:start;text-anchor:start;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="412.22284"
+             y="263.76367"
+             sodipodi:role="line"
+             id="tspan47">and carbonate</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           x="548.18701"
+           y="239.34958"
+           id="text37"><tspan
+             sodipodi:role="line"
+             style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="548.18701"
+             y="239.34958"
+             id="tspan24">CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan39">2</tspan> converted</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="548.18701"
+             y="249.05096"
+             id="tspan38">to carbonate</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="548.18701"
+             y="258.75235"
+             id="tspan62">and</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="548.18701"
+             y="268.45374"
+             id="tspan25">bicarbonate</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+             x="549.33563"
+             y="278.15512"
+             id="tspan37"> </tspan></text>
+      </g>
+      <path
+         style="fill:#d9ddd9;fill-opacity:1;stroke:#ff6961;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+         d="m 167.22872,532.34558 v 18.64659"
+         id="path939"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="166.99864"
+         y="565.77545"
+         id="text940"><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="166.99864"
+           y="565.77545"
+           id="tspan64">CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan939">2</tspan> removed (through alkalinity swing) </tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="166.99864"
+           y="575.47687"
+           id="tspan66">&amp; stored</tspan></text>
+      <path
+         style="fill:#8addd9;fill-opacity:1;stroke:#ff6961;stroke-width:1.5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#RoundedArrow);marker-end:url(#RoundedArrow)"
+         d="m 167.22872,616.48316 v 13.35492"
+         id="path940"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:800;font-size:7.76111px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         x="168.58607"
+         y="595.40857"
+         id="text942"><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="168.58607"
+           y="595.40857"
+           id="tspan941">Acid removed or </tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+           x="168.58607"
+           y="605.10999"
+           id="tspan942">alkalinity added</tspan></text>
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-dasharray:4, 8;stroke-dashoffset:0;stroke-opacity:0.571429"
+         d="M 16.605893,583.51409 H 368.5961"
+         id="path75"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:9.87778px;font-family:Avenir;-inkscape-font-specification:'Avenir Ultra-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:0.397626;stroke:#757b76;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       x="186.12675"
+       y="411.12973"
+       id="text6"><tspan
+         sodipodi:role="line"
+         style="font-size:9.87778px;fill:#000011;fill-opacity:1;stroke:none;stroke-width:2"
+         x="186.12675"
+         y="411.12973"
+         id="tspan6">Hover over for a more detailed explanation</tspan></text>
+  </g>
+</svg>

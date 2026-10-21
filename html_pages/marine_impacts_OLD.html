@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explaining SeaCURE</title>
+    <style>
+        /* =========================================
+           CONFIGURATION AREA - CHANGE COLORS HERE
+        ========================================= */
+        :root {
+            /* Main Titles (H1) */
+            --title-color: #5DAF8B; /* Deep blue/grey */
+            
+            /* Subtitles (H2) */
+            --subtitle-color: #335E96; /* Slightly lighter blue */
+            
+            /* Standard Body Text */
+            --body-text-color: #333333; /* Dark grey (easier to read than pure black) */
+            
+            /* The clickable interactive links */
+            --interactive-color: #0000FF; /* Currently Orange - Change me! */
+            
+            /* The hover background for interactive links */
+            --interactive-hover-bg: #fbeee6; /* Light orange fade */
+            
+            /* Page Background */
+            --main-bg-color: #ffffff;
+        }
+
+        /* --- Basic Page Styling --- */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            /* Using the variables defined above */
+            color: var(--body-text-color);
+            background-color: var(--main-bg-color);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 { color: var(--title-color); }
+        h2 { color: var(--subtitle-color); }
+        
+        /* --- Header & Logo Styling --- */
+        .project-header {
+            text-align: center; /* Centers everything in header */
+            margin-bottom: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .logo-wrapper {
+            /* Flex allows easy side-by-side logos if needed */
+            display: flex; 
+            justify-content: center;
+            gap: 20px; /* Space between logos */
+            margin-bottom: 15px;
+        }
+        .project-logo {
+            max-height: 80px; /* Ensures logos don't dominate the page */
+            width: auto;
+        }
+
+        /* --- Standard Images in text --- */
+        img.standard-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="project-header">
+        <h1>Potential for impacts on marine life</h1>
+    </header>
+
+    <main>
+        <section>
+            <p>
+            Research that had already been done suggests that if seawater carbon concentrations drop below a quarter of their normal levels, 
+            photosynthesis by marine plants and algae my be impacted, and that the upper pH (measure of acidity) limit for growth of seaweeds and seagrass is around 9. 
+            We have been releasing water at pH 9.5, but this is instantly diluted on entering the sea
+            (<a href="dilution.html" target="_blank">information on dilution of the released water is linked earlier in page and linked here</a>).
+            </p>
+            <p>
+            We ran experiments at the Plymouth Marine Laboratory to better understand how some marine plants and animals respond to low-carbon seawater. 
+            The short-term experiments (2-5 days) studied phytoplankton, zooplankton and blue mussels exposed to different concentrations of low-carbon seawater.
+            </p>
+            <p>
+            Our experiments showed that short term exposure to low-carbon seawater can impact marine organisms. 
+            This is expected as many marine organisms use carbon for growth, and the amount of carbonic acid (from dissolved CO<sub>2</sub>) influences various biological processes. 
+            However, when low-carbon seawater was diluted with ambient seawater, the impacts diminished quickly. 
+            </p>
+            <p>
+            More research is needed as current data cover only a handful of marine species and conditions. 
+            To determine whether this kind of technology should be undertaken at commercial scales, much more research is needed
+            - and the Weymouth facility could play a very important role here. 
+            <!-- <ul>
+            <li>What are the tolerance thresholds for other marine organisms, especially those that are considered important or of special interest?</li>
+            <li>How do marine organisms respond to long-term exposure of low-carbon seawater?</li>
+            <li>At what level of dilution is there no impact?</li>
+            <li>Can local benefits can be achieved by removing the stress of ocean acidification (human released CO<sub>2</sub> making the surface ocean more acidic)?</li>
+            </ul> -->
+                <!-- <a href="https://xxx" target="_blank">perhaps with links?</a> -->
+            </p>
+        </section>
+     </main>
+
+</body>
+</html>
