@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Explaining SeaCURE</title>
+    <meta name="description" content="SeaCURE research in Weymouth: can the ocean help us tackle climate change? Explore the pilot plant, the science behind it, marine impacts, and what's next.">
+    <link rel="icon" href="logos/Exe_logo.svg.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
-            --subtitle-color: #2B6CB0; 
-            --body-text-color: #2D3748; 
-            --interactive-color: #0056b3; 
-            --interactive-hover-bg: #EBF8FF; 
+            --title-color: #1A365D;
+            --subtitle-color: #2B6CB0;
+            --body-text-color: #2D3748;
+            --interactive-color: #0056b3;
+            --interactive-hover-bg: #EBF8FF;
             --main-bg-color: #F7FAFC;
             --tab-bg: #EDF2F7;
             --tab-active: #2B6CB0;
@@ -270,14 +274,6 @@
     </header>
 
     <main>
-        <!-- <div class="tab-container">
-            <button class="tab-button active" onclick="openTab(event, 'tab-context')"><i class="fa-solid fa-globe"></i> Context</button>
-            <button class="tab-button" onclick="openTab(event, 'tab-how')"><i class="fa-solid fa-gears"></i> How it Works</button>
-            <button class="tab-button" onclick="openTab(event, 'tab-seacure')"><i class="fa-solid fa-flask"></i> SeaCURE</button>
-            <button class="tab-button" onclick="openTab(event, 'tab-impacts')"><i class="fa-solid fa-fish"></i> Marine Life</button>
-            <button class="tab-button" onclick="openTab(event, 'tab-future')"><i class="fa-solid fa-arrow-right-long"></i> Next Steps</button>
-        </div> -->
-
         <div class="tab-container">
             <button class="tab-button active" onclick="openTab(event, 'tab-summary')"><i class="fa-regular fa-clock"></i> Summary</button>
             <button class="tab-button" onclick="openTab(event, 'tab-context')"><i class="fa-solid fa-globe"></i> Context</button>
@@ -311,21 +307,6 @@
        </div>
     </div>
 
-
-<!-- 
-        <div class="summary-box">
-            <h2><i class="fa-regular fa-clock"></i> 1 minute summary</h2>
-            <p>To slow down climate change we must cut our use of fossil fuels as much as possible. This will reduce the build-up of carbon dioxide in the atmosphere. However, some activities are hard to make carbon-free, such as farming and flying. To balance out those activities we need to remove carbon dioxide from the air.</p>    
-            <p>We started looking at the ocean because it already absorbs large amounts of carbon dioxide from the atmosphere. We are exploring at ways to help the ocean take in even more by studying two approaches:</p>
-            <ul>
-                <li>Taking carbon dioxide out of seawater. This frees up space in the water so it can take in more carbon dioxide from the air.</li>
-                <li>Shifting the balance of the different forms of carbon in seawater, allowing the water to hold even more carbon dioxide.</li>
-            </ul>
-            <p>The SeaCURE pilot plant at SEA LIFE in Weymouth is the only not-for-profit facility in the world designed to study these approaches outside of a lab. We have been researching the first approach, and now we want to explore the second.</p>
-            <p>We only process a small amount of water to do these tests. We have checked that this is safe for sea life. We need more research at the site, still at small scales, to find out if the approaches would still be safe and effective if done around the world at much larger scales - where they could make a real difference to climate change.</p>
-            <p>This page explains what we have done, why we did it, how it works, and what we plan to do next. This information is here to support everyone in Weymouth to explore what the research could mean for them and to take part in conversations about the future of the research.</p>
-        </div> -->
-
         <div id="tab-context" class="tab-content">
 
             <section>
@@ -347,12 +328,11 @@
                 <div class="split-layout2">
                     <div class="graphic-placeholder2">
                         <i class="fa-solid fa-sponge"></i>
-                        </span>
                         <img src="images/carbon_sponge_part1.png" alt="The ocean as a sponge for carbon" class="crop-img complex-layer" style="object-fit: contain;">
                     </div>
                     <div>
                         <p>The ocean acts like a sponge, absorbing a large share of human-made CO<sub>2</sub>. If you compare the same volume of seawater and air, the seawater contains over 100 times more carbon.</p>
-                        <p>Capturing carbon from seawater, or increasing the capacity of the water to hold carbon, could therefore be more practical than <a href="https://climeworks.com/direct-air-capture" target="_blank" style="color:var(--interactive-color);">capturing carbon from air</a>.</p>
+                        <p>Capturing carbon from seawater, or increasing the capacity of the water to hold carbon, could therefore be more practical than <a href="https://climeworks.com/direct-air-capture" target="_blank" rel="noopener noreferrer" style="color:var(--interactive-color);">capturing carbon from air</a>.</p>
                         <p>Removing CO<sub>2</sub> this way would also <span class="interactive-trigger" data-modal="modal-html_page_compete_for_land">minimise competition for space on land</span>, which limits how much carbon we can remove from the atmosphere by approaches like tree planting.</p>
                     </div>
                 </div>
@@ -366,19 +346,6 @@
                 <h2>How can seawater help remove CO<sub>2</sub> from the atmosphere?</h2>
                 <p>The CO<sub>2</sub> that humans produce will eventually be absorbed by the ocean, but this natural process of carbon dioxide removal takes tens of thousands of years. We can speed things up in two different ways. If we think of the ocean as a sponge for CO<sub>2</sub>, we can:</p>
                 
-                <!-- <div class="card-grid" style="margin-bottom: 20px;">
-                    <div class="info-card">
-                        <strong>Approach 1: 'squeeze out the sponge'</strong>
-                        Take carbon out of seawater, so it can refill with CO<sub>2</sub> from the atmosphere. This is known as Direct Ocean Carbon Capture.
-                        <img src="images/carbon_sponge_part2a.png" alt="The ocean as a sponge for carbon" class="crop-img complex-layer" style="object-fit: contain;">
-                    </div>
-                    <div class="info-card">
-                        <strong>Approach 2: 'make the sponge  more absorbent'</strong>
-                        Increase the capacity of seawater to hold carbon. This is known as Ocean Alkalinity Enhancement.
-                        <img src="images/carbon_sponge_part2b.png" alt="The ocean as a sponge for carbon" class="crop-img complex-layer" style="object-fit: contain;">
-                    </div>
-                </div> -->
-
                 <div class="card-grid" style="margin-bottom: 20px;">
                     <div class="info-card">
                         <div>
@@ -471,7 +438,7 @@
                     <!-- <div class="graphic-placeholder2"> -->
                     <div>
                         <h3>Team</h3>
-                        <p>The project has been led and run by the <a href="https://www.exeter.ac.uk" target="_blank" style="color:var(--interactive-color);">University of Exeter</a>, with the <a href="https://pml.ac.uk" target="_blank" style="color:var(--interactive-color);">Plymouth Marine Laboratory</a>, <a href="https://www.brunel.ac.uk" target="_blank" style="color:var(--interactive-color);">Brunel University of London</a> and <a href="https://www.eliquohydrok.co.uk" target="_blank" style="color:var(--interactive-color);">Eliquo Hydrok</a>.</p>
+                        <p>The project has been led and run by the <a href="https://www.exeter.ac.uk" target="_blank" rel="noopener noreferrer" style="color:var(--interactive-color);">University of Exeter</a>, with the <a href="https://pml.ac.uk" target="_blank" rel="noopener noreferrer" style="color:var(--interactive-color);">Plymouth Marine Laboratory</a>, <a href="https://www.brunel.ac.uk" target="_blank" rel="noopener noreferrer" style="color:var(--interactive-color);">Brunel University of London</a> and <a href="https://www.eliquohydrok.co.uk" target="_blank" rel="noopener noreferrer" style="color:var(--interactive-color);">Eliquo Hydrok</a>.</p>
                         <p>We have different teams coming together to work on different problems. <a href="https://experts.exeter.ac.uk/23047-paul-halloran" target="_blank" rel="noopener noreferrer">Paul Halloran</a> at the University of Exeter is leading the overarching activity and coordinating this.</p>
                     </div>  
                     <div>
@@ -482,7 +449,7 @@
                 <div>
                     <h2>Who is funding this?</h2>      
                     <p>The first project was funded by the UK Government's Greenhouse Gas Removal Innovation Programme (2021–2025).</p>
-                    <p>Since May 2025, support has come from the University of Exeter and the <a href="https://www.carbontosea.org" target="_blank" style="color:var(--interactive-color);">Carbon to Sea Initiative</a>, a non-profit funding ocean carbon removal research globally. Carbon to Sea have funded workshops to understand the interest and thoughts of the local community.</p>
+                    <p>Since May 2025, support has come from the University of Exeter and the <a href="https://www.carbontosea.org" target="_blank" rel="noopener noreferrer" style="color:var(--interactive-color);">Carbon to Sea Initiative</a>, a non-profit funding ocean carbon removal research globally. Carbon to Sea have funded workshops to understand the interest and thoughts of the local community.</p>
                     <p>Local community views will help guide future funding applications aiming to make Weymouth a global research hub.</p> 
                 </div>
 
@@ -540,7 +507,7 @@
                 <h3>Ongoing & upcoming funded projects</h3>
                 <ul>
                     <li>The Carbon to Sea Initiative have funded workshops to allow us to understand the interest and thoughts of the local community.</li>
-                    <li>The <a href="https://oaesis.eu" target="_blank">OAeSIS</a> project has been funded by the EU to evaluate the sustainability, effectiveness, and impacts of Ocean Alkalinity Enhancement (Approach 2). The project will improve our computer model of Weymouth Bay with additional measurements of the Bay's seawater chemistry and currents through fieldwork in 2027/28.</li>
+                    <li>The <a href="https://oaesis.eu" target="_blank" rel="noopener noreferrer">OAeSIS</a> project has been funded by the EU to evaluate the sustainability, effectiveness, and impacts of Ocean Alkalinity Enhancement (Approach 2). The project will improve our computer model of Weymouth Bay with additional measurements of the Bay's seawater chemistry and currents through fieldwork in 2027/28.</li>
                  </ul>
             </section> 
 
@@ -579,97 +546,6 @@
 
     </main>
     <!-- POP-UP MODALS -->
-    <div id="modal-net_zero_animation_video" class="modal-overlay">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h2>Net Zero Explained</h2>
-            <div class="video-container">
-                <iframe src="videos/net_zero.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <!-- <iframe width="560" height="315" src="videos/net_zero.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-uk_policy_animation_video" class="modal-overlay">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h2>Net Zero Explained</h2>
-            <div class="video-container">
-                <iframe src="animations/uk_carbon_emissions_with_explanation.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <!-- <iframe width="560" height="315" src="videos/net_zero.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-seawater_carbon_basics_video" class="modal-overlay">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h2>Seawater carbon basics</h2>
-            <div class="video-container">
-                <iframe width="560" height="315" src="animations/seawater_carbon_basics.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-pilot_video" class="modal-overlay">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h2>SeaCURE pilot plant</h2>
-            <div class="video-container">
-                <iframe width="560" height="315" src="videos/pilot_overview_video.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-seacure_explainer_animation" class="modal-overlay">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h2>SeaCURE process in a bit more detail</h2>
-            <div class="video-container">
-                <iframe width="560" height="315" src="animations/SeaCURE_basics.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-DOCC_explainer_animation" class="modal-overlay">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h2>Overview of the chemistry behind key ocean carbon removal approaches</h2>
-            <div class="video-container">
-                <iframe width="560" height="315" src="animations/OceanCarbonAnimation.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-OAE_explainer_animation" class="modal-overlay">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h2>An introduction to Ocean Alkalinity Enhancement</h2>
-            <div class="video-container">
-                <iframe width="560" height="315" src="animations/OceanCarbonAnimationOAE.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-
-    <!-- infographic -->
-    <div id="modal-energy" class="modal-overlay">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h2>Detailed Energy Consumption Breakdown</h2>
-            <img src="https://placehold.co/1200x1500/2c3e50/FFF.png?text=Very+Detailed+Complex+Infographic" alt="Detailed Infographic" style="width:100%; height:auto;">
-        </div>
-    </div>
-
-    <!-- External Webpage -->
-    <div id="modal-html_page" class="modal-overlay">
-        <div class="modal-content modal-wide">
-            <span class="close-btn">&times;</span>
-            <div class="iframe-container-16x9">
-                <iframe class="iframe-fill" src="html_pages/stable_climate.html" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-
     <div id="modal-html_page_dilution" class="modal-overlay">
         <div class="modal-content modal-wide">
             <span class="close-btn">&times;</span>
@@ -751,24 +627,6 @@
         </div>
     </div>
 
-    <div id="modal-html_page_what_next" class="modal-overlay">
-        <div class="modal-content modal-wide">
-            <span class="close-btn">&times;</span>
-            <div class="iframe-container-16x9">
-                <iframe class="iframe-fill" src="html_pages/what_next.html" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-html_page_OAE" class="modal-overlay">
-        <div class="modal-content modal-wide">
-            <span class="close-btn">&times;</span>
-            <div class="iframe-container-16x9">
-                <iframe class="iframe-fill" src="html_pages/OAE.html" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-
     <!-- Embeding a Vimeo viseo -->
     <div id="modal-seacure-vimeo-video" class="modal-overlay">
         <div class="modal-content">
@@ -790,18 +648,6 @@
     </div>
 
     <!-- Reveal.js Presentation -->
-     <!-- https://manim-slides.eertmans.be/latest/index.html -->
-    <div id="modal-reveal-presentation" class="modal-overlay">
-        <div class="modal-content modal-wide">
-            <span class="close-btn">&times;</span>
-            <div class="iframe-container-16x9">
-                <iframe class="iframe-fill" src="reveal.js-master/my-reveal-presentation.html" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-
-    <!-- Reveal.js Presentation -->
-     <!-- https://manim-slides.eertmans.be/latest/index.html -->
     <div id="modal-reveal-presentation-what-has-seacure-done" class="modal-overlay">
         <div class="modal-content modal-wide">
             <span class="close-btn">&times;</span>
@@ -812,7 +658,6 @@
     </div>
 
     <!-- Reveal.js Presentation -->
-     <!-- https://manim-slides.eertmans.be/latest/index.html -->
     <div id="modal-reveal-presentation-what-next" class="modal-overlay">
         <div class="modal-content modal-wide">
             <span class="close-btn">&times;</span>
@@ -821,62 +666,6 @@
             </div>
         </div>
     </div>
-
-    <!-- data table -->
-    <div id="modal-spec-sheet" class="modal-overlay">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h2>Technical Specifications</h2>
-            <p>A breakdown of the hardware requirements for Phase 2.</p>
-            
-            <table class="modal-table">
-                <thead>
-                    <tr>
-                        <th>Component</th>
-                        <th>Requirement</th>
-                        <th>Notes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Processor cores</td>
-                        <td>64</td>
-                        <td>Dedicated</td>
-                    </tr>
-                    <tr>
-                        <td>RAM</td>
-                        <td>512 GB</td>
-                        <td>DDR5 ECC</td>
-                    </tr>
-                    <tr>
-                        <td>Storage IOPS</td>
-                        <td>150,000</td>
-                        <td>Sustained write</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-
-    <!-- code snipet -->
-    <div id="modal-config-script" class="modal-overlay">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h2>Bridge Configuration YAML</h2>
-            <p>The raw configuration used for the latency management protocol.</p>
-            
-            <pre style="background: #f4f4f4; padding: 15px; border-radius: 5px; overflow-x: auto;"><code>
-    bridge_settings:
-    protocol: "v4_secure"
-    max_latency_ms: 45
-    buffer_size_mb: 1024
-    retry_policy:
-        attempts: 3
-        backoff: "exponential"
-            </code></pre>
-        </div>
-    </div>
-
 
     <script>
         function openTab(evt, tabName) {
